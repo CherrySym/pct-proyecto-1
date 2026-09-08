@@ -1,4 +1,4 @@
-#PROYECTO 1 - MATIAS FADEL, ERIC DAMIRES, GABRIEL MEDEROS
+#PROYECTO 1 - MATIAS FADEL, ERIC DAMIRES, GABRIEL MEDEROS, NICOLAS GOBBO
 
 # - nager.date (sacar los feriados y findes)
 # - open-meteo (sacar los datos climaticos historicos)
@@ -24,6 +24,6 @@ def consumir_datos_feriados(URL, archivo_salida='PROYECTO1/feriados_2026.txt'):
             for dia in dias:
                 feriados.write(dia + '\n')
 
-consumir_datos_feriados('https://nagerholidays.com//api/v4/Holidays/uy/2026', archivo_salida='PROYECTO1/feriados_2026.txt')
+
 
 
