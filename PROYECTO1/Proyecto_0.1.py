@@ -24,6 +24,16 @@ def consumir_datos_feriados(URL, archivo_salida='PROYECTO1/feriados_2026.txt'):
             for dia in dias:
                 feriados.write(dia + '\n')
 
+def encontrar_finde_largo(URL, archivo_salida = 'PROYECTO1/findelargos_2026.txt', archivo_entrada = 'PROYECTO1/feriados_2026.txt'):
+    if os.path.exists(archivo_salida) and os.path.getsize(archivo_salida) > 0:
+        return
+    else:
+        with open(archivo_entrada, 'r') as feriados, open(archivo_salida, 'w') as findelargo:
+            for feriado in feriados:
+                fecha = datetime.datetime.strptime(feriado.strip(), "%Y-%m-%d")
+                if fecha.weekday() == 0 or fecha.weekday() == 4:
+                    findelargo.write(feriado.strip() + '\n')
+
 
 
 
