@@ -6,20 +6,24 @@
 # - otra api mas (con clave maybe)
 
 import requests
+import time
+import os
 
 APIferiados = 'https://nagerholidays.com//api/v4/Holidays/uy/2026'
 APIclima = 'https://open-meteo.com'
-APIcoords = 'https://nominatim.org'
-APIrandom = 'x' 
+APIcoords = 'https://nominatim.openstreetmap.org/search'
+APIrandom = 'x'
 
-def consumir_datos(URL):
-    r = requests.get(URL)
-    dias = [feriado['date'] for feriado in r.json()]
-    with open (r'PROYECTO 1/feriados_2026.txt', 'w') as feriados:
-        for dia in dias:
-            feriados.write(dia + '\n')
-    return feriados
+def consumir_datos_feriados(URL, archivo_salida='PROYECTO1/feriados_2026.txt'):
+    if os.path.exists(archivo_salida) and os.path.getsize(archivo_salida) > 0:
+        return
+    else:
+        r = requests.get(URL)
+        dias = [feriado['date'] for feriado in r.json()]
+        with open(archivo_salida, 'w') as feriados:
+            for dia in dias:
+                feriados.write(dia + '\n')
+
+consumir_datos_feriados('https://nagerholidays.com//api/v4/Holidays/uy/2026', archivo_salida='PROYECTO1/feriados_2026.txt')
 
 
-
-print(consumir_datos(APIferiados))
