@@ -1,20 +1,4 @@
-#PROYECTO 1 - MATIAS FADEL, ERIC DAMIRES, GABRIEL MEDEROS, NICOLAS GOBBO
-
-# - nager.date (sacar los feriados y findes)
-# - open-meteo (sacar los datos climaticos historicos)
-# - nominatim (sacar las coordenadas)
-# - otra api mas (con clave maybe)
-
-import requests
-import time
-import os
-
-APIferiados = 'https://nagerholidays.com//api/v4/Holidays/uy/2026'
-APIclima = 'https://open-meteo.com'
-APIcoords = 'https://nominatim.openstreetmap.org/search'
-APIrandom = 'x'
-
-def consumir_datos_feriados(URL, archivo_salida='PROYECTO1/feriados_2026.txt'):
+def datos_feriados(URL, archivo_salida='PROYECTO1/datos/raw/feriados_2026.txt'):
     if os.path.exists(archivo_salida) and os.path.getsize(archivo_salida) > 0:
         return
     else:
@@ -24,7 +8,7 @@ def consumir_datos_feriados(URL, archivo_salida='PROYECTO1/feriados_2026.txt'):
             for dia in dias:
                 feriados.write(dia + '\n')
 
-def encontrar_finde_largo(URL, archivo_salida = 'PROYECTO1/findelargos_2026.txt', archivo_entrada = 'PROYECTO1/feriados_2026.txt'):
+def findes_largos_candidatos(URL, archivo_salida = 'PROYECTO1/datos/raw/findelargos_2026.txt', archivo_entrada = 'PROYECTO1/datos/raw/feriados_2026.txt'):
     if os.path.exists(archivo_salida) and os.path.getsize(archivo_salida) > 0:
         return
     else:
@@ -34,6 +18,15 @@ def encontrar_finde_largo(URL, archivo_salida = 'PROYECTO1/findelargos_2026.txt'
                 if fecha.weekday() == 0 or fecha.weekday() == 4:
                     findelargo.write(feriado.strip() + '\n')
 
+def datos_destinos():
 
+    return
 
+def datos_clima():
+
+    return
+
+def lugares_de_interes():
+    # en el archivo pruebaapi.py por ahora
+    return
 
