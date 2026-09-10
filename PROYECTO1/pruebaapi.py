@@ -4,7 +4,7 @@ import os
 import time
 
 APIfoursquare = 'https://places-api.foursquare.com/places/search'
-FOURSQUARE_KEY = 'AI4OQ2WIBAZAHWHQAHGG2EKIT2AUDABGFZPPGPFRNHYYXMDN'
+FOURSQUARE_KEY = os.environ.get("FOURSQUARE_KEY", "LET0YMDHISQQGEEMBICVWFBJ4R3NYL34VGLWBCF0ASWQ3DHE")
 
 HEADERS = {
     "Accept": "application/json",
@@ -12,21 +12,24 @@ HEADERS = {
     "X-Places-Api-Version": "2025-06-17"
 }
 
-CAMPOS = "name,tel,hours,rating,menu,description,price,geocodes"
-
-
 def buscar_lugares(lat, lon, categoria=None, radius=20000, limit=50, reintentos=3):
     params = {
         "ll": f"{lat},{lon}",
         "radius": radius,
-        "limit": limit,
-        "fields": CAMPOS
+        "limit": limit
     }
     if categoria:
         params["categories"] = categoria
 
     for intento in range(reintentos):
-        r = requests.get(APIfoursquare, headers=HEADERS, params=params)
+        try:
+            r = requests.get(APIfoursquare, headers=HEADERS, params=params, timeout=15)
+        except (requests.exceptions.ChunkedEncodingError, requests.exceptions.ConnectionError):
+            espera = 3 * (intento + 1)
+            print(f"Error de conexión. Reintentando en {espera}s...")
+            time.sleep(espera)
+            continue
+
         if r.status_code == 429:
             espera = 5 * (intento + 1)
             print(f"Rate limit alcanzado. Esperando {espera}s...")
@@ -35,22 +38,16 @@ def buscar_lugares(lat, lon, categoria=None, radius=20000, limit=50, reintentos=
         r.raise_for_status()
         return r.json()["results"]
 
-    raise Exception("No se pudo completar la request tras varios reintentos (429 persistente)")
+    raise Exception("No se pudo completar la request tras varios reintentos")
 
 
 def limpiar_lugares(lugares):
     limpio = []
     for l in lugares:
-        geo = l.get("geocodes", {}).get("main", {})
         limpio.append({
             "nombre": l.get("name", "Sin nombre"),
-            "telefono": l.get("tel", "Sin teléfono"),
-            "horario": l.get("hours", {}).get("display", "Sin horario"),
-            "rating": l.get("rating", "Sin rating"),
-            "precio": l.get("price", "Sin precio"),
-            "menu": l.get("menu", "Sin menú"),
-            "descripcion": l.get("description", "Sin descripción"),
-            "ubicacion": f"https://www.google.com/maps?q={geo.get('latitude')},{geo.get('longitude')}" if geo else "Sin ubicación"
+            "categorias": [c.get("name") for c in l.get("categories", [])],
+            "direccion": l.get("location", {}).get("formatted_address", "Sin dirección")
         })
     return limpio
 
@@ -74,4 +71,4 @@ def buscar_lugares_cacheado(lat, lon, nombre_destino, carpeta_cache="datos/fours
 
 if __name__ == "__main__":
     lugares = buscar_lugares_cacheado(-34.9011, -56.1645, "montevideo")
-    print(f"{len(lugares)} lugares guardados/cargados para Montevideo")
+    print(f"{len(lugares)} lugares guardados para Montevideo")
