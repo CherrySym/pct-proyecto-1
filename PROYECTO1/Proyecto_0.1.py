@@ -34,6 +34,39 @@ def encontrar_finde_largo(URL, archivo_salida = 'PROYECTO1/findelargos_2026.txt'
                 if fecha.weekday() == 0 or fecha.weekday() == 4:
                     findelargo.write(feriado.strip() + '\n')
 
+def consumir_datos_coords(archivo_salida='PROYECTO1/coords_2026.txt', actualizado=False):
+    archivo_entrada = 'PROYECTO1/direcciones_2026.txt'
+    HEADERS = {'User-Agent': 'proyecto1-geocoder'}
+
+    if actualizado:
+        print("Ya está actualizado, no se hicieron cambios en el archivo de salida.")
+        return
+
+    
+    with open(archivo_entrada, 'r') as f:
+        direcciones = [line.strip() for line in f.readlines() if line.strip()]
+    
+
+    
+    with open(archivo_salida, 'w') as coordenadas:
+        for direccion in direcciones:
+            params = {'q': direccion, 'format': 'json', 'limit': 1}
+            r = requests.get(APIcoords, params=params, headers=HEADERS)
+            data = r.json()
+
+            if not data:
+                print(f"No se encontraron coordenadas para: {direccion}")
+                continue
+
+            lat = data[0]['lat']
+            lon = data[0]['lon']
+            
+            coordenadas.write(f"{direccion};{lat},{lon}\n")
+            time.sleep(1)
+
+    print("Coordenadas actualizadas correctamente")
+
+consumir_datos_coords(archivo_salida='PROYECTO1/coords_2026.txt', actualizado=True)
 
 
 
