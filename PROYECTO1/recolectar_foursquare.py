@@ -15,7 +15,6 @@ HEADERS = {
 
 CARPETA_CACHE = pathlib.Path(__file__).resolve().parent / "foursquare"
 
-
 def buscar_lugares(lat, lon, categoria=None, radius=20000, limit=50, reintentos=3):
     params = {
         "ll": f"{lat},{lon}",
