@@ -2,6 +2,7 @@ import requests
 import json
 import os
 import time
+import pathlib
 
 APIfoursquare = 'https://places-api.foursquare.com/places/search'
 FOURSQUARE_KEY = os.environ.get("FOURSQUARE_KEY", "LET0YMDHISQQGEEMBICVWFBJ4R3NYL34VGLWBCF0ASWQ3DHE")
@@ -11,6 +12,9 @@ HEADERS = {
     "Authorization": f"Bearer {FOURSQUARE_KEY}",
     "X-Places-Api-Version": "2025-06-17"
 }
+
+CARPETA_CACHE = pathlib.Path(__file__).resolve().parent / "foursquare"
+
 
 def buscar_lugares(lat, lon, categoria=None, radius=20000, limit=50, reintentos=3):
     params = {
@@ -52,7 +56,7 @@ def limpiar_lugares(lugares):
     return limpio
 
 
-def buscar_lugares_cacheado(lat, lon, nombre_destino, carpeta_cache="datos/foursquare"):
+def buscar_lugares_cacheado(lat, lon, nombre_destino, carpeta_cache=CARPETA_CACHE):
     os.makedirs(carpeta_cache, exist_ok=True)
     ruta = os.path.join(carpeta_cache, f"{nombre_destino}.json")
 
