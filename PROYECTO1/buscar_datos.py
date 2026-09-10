@@ -57,5 +57,5 @@ def consumir_datos_coords(archivo_salida='PROYECTO1/datos/raw/coords_2026.txt', 
 
     print("Coordenadas actualizadas correctamente")
 
-consumir_datos_coords(archivo_salida='PROYECTO1/datos/raw/coords_2026.txt', actualizado=True)
+consumir_datos_coords(archivo_salida='PROYECTO1/datos/raw/coords_2026.txt', actualizado=False)
 
