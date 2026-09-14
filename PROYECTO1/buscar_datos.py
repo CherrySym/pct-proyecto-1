@@ -4,6 +4,9 @@ import time
 import requests
 import os
 import datetime
+import json
+import asyncio
+import aiohttp
 
 APIferiados = 'https://nagerholidays.com//api/v4/Holidays/uy/2026'
 APIclima = 'https://open-meteo.com'
@@ -25,16 +28,42 @@ def datos_feriados(url=APIferiados, archivo_salida='datos/raw/feriados_2026.txt'
             for dia in dias:
                 feriados.write(dia + '\n')
 
-def datos_destinos():
+def datos_destinos(archivo_salida='datos/raw/direcciones_2026.txt'):
+    directorio = os.path.dirname(archivo_salida)
+    if directorio:
+        os.makedirs(directorio, exist_ok=True)
 
-    return
+    if os.path.exists(archivo_salida) and os.path.getsize(archivo_salida) > 0:
+        return
+
+    destinos = [
+        "Montevideo, Uruguay",
+        "Punta del Este, Maldonado, Uruguay",
+        "Colonia del Sacramento, Colonia, Uruguay",
+        "Salto, Uruguay",
+        "Piriápolis, Maldonado, Uruguay",
+        "Cabo Polonio, Rocha, Uruguay",
+        "La Paloma, Rocha, Uruguay",
+        "Villa Serrana, Lavalleja, Uruguay",
+        "Minas, Lavalleja, Uruguay",
+        "Carmelo, Colonia, Uruguay",
+        "Tacuarembó, Uruguay",
+        "Rivera, Uruguay",
+        "Mercedes, Soriano, Uruguay",
+        "Chuy, Rocha, Uruguay",
+        "Termas del Daymán, Salto, Uruguay"
+    ]
+
+    with open(archivo_salida, 'w', encoding='utf-8') as f:
+        for destino in destinos:
+            f.write(destino + '\n')
 
 def datos_clima():
 
     return
 
 def lugares_de_interes():
-    # en el archivo pruebaapi.py por ahora
+    # en el archivo reclectar_foursquare.py
     return
 
 def datos_coords(archivo_salida='datos/raw/coords_2026.txt', archivo_entrada='datos/raw/direcciones_2026.txt', actualizado=False):
@@ -77,4 +106,5 @@ def datos_coords(archivo_salida='datos/raw/coords_2026.txt', archivo_entrada='da
 
 if __name__ == "__main__":
     datos_feriados()
+    datos_destinos()
     datos_coords()
