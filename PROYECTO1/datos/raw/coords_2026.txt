@@ -1,3 +1,15 @@
-Av. 18 de Julio 1234, Montevideo, Uruguay;-34.9058724,-56.1894369
-Av. 18 de Julio 1851, Montevideo, Uruguay;-34.9018429,-56.1762532
-Avenida Italia 2500, Montevideo, Uruguay;-34.8875716,-56.1448505
+Montevideo, Uruguay;-34.9058916,-56.1913095
+Punta del Este, Maldonado, Uruguay;-34.9632342,-54.9439981
+Colonia del Sacramento, Colonia, Uruguay;-34.4698592,-57.8433679
+Salto, Uruguay;-31.3888900,-57.9608876
+Piriápolis, Maldonado, Uruguay;-34.8689037,-55.2724472
+Cabo Polonio, Rocha, Uruguay;-34.4028524,-53.7825007
+La Paloma, Rocha, Uruguay;-34.6631811,-54.1550920
+Villa Serrana, Lavalleja, Uruguay;-34.3223672,-54.9893614
+Minas, Lavalleja, Uruguay;-34.3773987,-55.2382144
+Carmelo, Colonia, Uruguay;-33.9967827,-58.2836485
+Tacuarembó, Uruguay;-32.1666670,-55.5000000
+Rivera, Uruguay;-30.9000580,-55.5408151
+Mercedes, Soriano, Uruguay;-33.2484204,-58.0298671
+Chuy, Rocha, Uruguay;-33.6937948,-53.4561114
+Termas del Daymán, Salto, Uruguay;-31.4525017,-57.9083609
