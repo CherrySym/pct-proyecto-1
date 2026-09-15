@@ -1,35 +1,5 @@
 [
   {
-    "nombre": "Piccolino",
-    "categorias": [
-      "Burger Joint"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Zalem",
-    "categorias": [
-      "Gastropub"
-    ],
-    "direccion": "Carmelo Colonia"
-  },
-  {
-    "nombre": "Che Carmelo by Morgan",
-    "categorias": [
-      "Bistro",
-      "Brewery",
-      "Coffee Shop"
-    ],
-    "direccion": "Club Uruguay, 70100 Carmelo Colonia"
-  },
-  {
-    "nombre": "Rambla de los Constituyentes",
-    "categorias": [
-      "Waterfront"
-    ],
-    "direccion": "12 de Febrero (e/ Zorrilla de San Martín y 19 de Abril), 70100 Carmelo Colonia"
-  },
-  {
     "nombre": "Playa Seré",
     "categorias": [
       "Beach"
@@ -43,22 +13,6 @@
       "Restaurant"
     ],
     "direccion": "18 de Julio (e/ Uruguay y 19 de Abril), 70100 Carmelo Colonia"
-  },
-  {
-    "nombre": "Almacén de la Capilla",
-    "categorias": [
-      "Winery",
-      "Wine Bar"
-    ],
-    "direccion": "Camino de los Peregrinos (Ruta 21 Km. 257), 70100 Carmelo Colonia"
-  },
-  {
-    "nombre": "Bodega Familia Irurtia",
-    "categorias": [
-      "Winery",
-      "Vineyard"
-    ],
-    "direccion": "Avenida Ingeniero Químico Dante Irurtia s/n, 70100 Carmelo Colonia"
   },
   {
     "nombre": "Sociedad Italiana Progenie D'Italia (Comedor L'Korrea)",
@@ -76,77 +30,12 @@
     "direccion": "Nueva Palmira Colonia"
   },
   {
-    "nombre": "W Carmelo",
-    "categorias": [
-      "Night Club"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Carrito El Chivi",
-    "categorias": [
-      "Food Truck"
-    ],
-    "direccion": "Uruguay (Roosevelt), Carmelo Colonia"
-  },
-  {
-    "nombre": "Heladeria Azul",
-    "categorias": [
-      "Ice Cream Parlor"
-    ],
-    "direccion": "19 de Abril (General Flores), Carmelo Colonia"
-  },
-  {
-    "nombre": "Iglesia Nuestra Señora del Carmen",
-    "categorias": [
-      "Church"
-    ],
-    "direccion": "18 de Julio (e/ Uruguay y 19 de Abril), 70100 Carmelo Colonia"
-  },
-  {
-    "nombre": "Bodega Boutique El Legado",
-    "categorias": [
-      "Winery"
-    ],
-    "direccion": "Ramal Ruta 97, 70100 Carmelo Colonia"
-  },
-  {
-    "nombre": "El Horno",
-    "categorias": [
-      "Pizzeria",
-      "Sandwich Spot"
-    ],
-    "direccion": "19 de Abril 101 (esq. Ignacio Barrios), 70100 Carmelo Colonia"
-  },
-  {
-    "nombre": "Bodega Boutique El Legado",
-    "categorias": [
-      "Winery",
-      "Vineyard"
-    ],
-    "direccion": "Ramal Ruta 97, 70100 Sección 06 Colonia"
-  },
-  {
-    "nombre": "Los Balla",
-    "categorias": [
-      "Grocery Store"
-    ],
-    "direccion": "Uruguay 224 (e/ Ignacio Barrios y Lavalleja), 70100 Carmelo Colonia"
-  },
-  {
     "nombre": "Las Carmelitas",
     "categorias": [
       "Empanada Restaurant",
       "Food Stand"
     ],
     "direccion": "19 de Abril (Piedras), Carmelo Colonia"
-  },
-  {
-    "nombre": "Plaza Artigas",
-    "categorias": [
-      "Plaza"
-    ],
-    "direccion": "Isidoro Rodríguez (e/ José Pedro Varela y Carmen), 70100 Carmelo Colonia"
   },
   {
     "nombre": "Lo D'Pepe",
@@ -157,39 +46,11 @@
     "direccion": "19 de Abril (esq. Solís), 70100 Carmelo, Colonia Colonia"
   },
   {
-    "nombre": "Anacahuita",
-    "categorias": [
-      "Gastropub"
-    ],
-    "direccion": "Uruguay 101 (esq. Defensa), 70100 Carmelo Colonia"
-  },
-  {
     "nombre": "12 de Febrero",
     "categorias": [
       "Restaurant"
     ],
     "direccion": "12 de Febrero (esq. Uruguay), 70100 Carmelo Colonia"
-  },
-  {
-    "nombre": "Puente Giratorio",
-    "categorias": [
-      "Bridge"
-    ],
-    "direccion": "19 de Abril, 70100 Carmelo Colonia"
-  },
-  {
-    "nombre": "Plaza de las Naciones",
-    "categorias": [
-      "Plaza"
-    ],
-    "direccion": "Bulevar Artigas, 70100 Carmelo Colonia"
-  },
-  {
-    "nombre": "Puerto Comercial Carmelo",
-    "categorias": [
-      "Harbor or Marina"
-    ],
-    "direccion": "José de San Martín (esq. Del Carmen), 70100 Carmelo Colonia"
   },
   {
     "nombre": "Puerto Dijama",
@@ -206,61 +67,11 @@
     "direccion": "Ruta 21, km 262, Carmelo Dpto. de Colonia"
   },
   {
-    "nombre": "Yacht Club Carmelo",
-    "categorias": [
-      "Harbor or Marina"
-    ],
-    "direccion": "70100 Carmelo Colonia"
-  },
-  {
-    "nombre": "Reserva de Fauna Carmelo",
-    "categorias": [
-      "Nature Preserve"
-    ],
-    "direccion": "Tabaré (e/ Charrúa, del Medio al Este y Raúl Igoa), Carmelo Colonia"
-  },
-  {
     "nombre": "Restaurante",
     "categorias": [
       "Restaurant"
     ],
     "direccion": "Hotel Casino Carmelo, Carmelo Colonia"
-  },
-  {
-    "nombre": "El refugio",
-    "categorias": [
-      "BBQ Joint"
-    ],
-    "direccion": "Playa Seré"
-  },
-  {
-    "nombre": "Narbona Wine Lodge",
-    "categorias": [
-      "Winery",
-      "Wine Bar"
-    ],
-    "direccion": "Ruta 21 Km. 268, Carmelo Colonia"
-  },
-  {
-    "nombre": "Río Uruguay",
-    "categorias": [
-      "River"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Capilla San Roque",
-    "categorias": [
-      "Church"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Basta Pedro",
-    "categorias": [
-      "Pizzeria"
-    ],
-    "direccion": ""
   },
   {
     "nombre": "Balneario Zagarzazú",
@@ -275,90 +86,5 @@
       "Italian Restaurant"
     ],
     "direccion": ""
-  },
-  {
-    "nombre": "Shiva Lounge",
-    "categorias": [
-      "Lounge"
-    ],
-    "direccion": "Carmelo Resort & Spa, a Hyatt Hotel, Carmelo Colonia"
-  },
-  {
-    "nombre": "Puerto Camacho",
-    "categorias": [
-      "Harbor or Marina"
-    ],
-    "direccion": "70100 Carmelo Colonia"
-  },
-  {
-    "nombre": "Bodega Zubizarreta",
-    "categorias": [
-      "Winery",
-      "Vineyard"
-    ],
-    "direccion": "Camino Juan de San Martín Km. 241, 70100 Carmelo Colonia"
-  },
-  {
-    "nombre": "Calera de las Huérfanas",
-    "categorias": [
-      "Historic and Protected Site"
-    ],
-    "direccion": "Ruta 21,camino Juan de San Martín | a 16 km de Carmelo, Carmelo Colonia"
-  },
-  {
-    "nombre": "Clemente Resto-Bar",
-    "categorias": [
-      "Gastropub"
-    ],
-    "direccion": "Oribe 786, Nueva Palmira Colonia"
-  },
-  {
-    "nombre": "Bomba",
-    "categorias": [
-      "Hiking Trail"
-    ],
-    "direccion": "Colonia"
-  },
-  {
-    "nombre": "Muelle Viejo",
-    "categorias": [
-      "Pizzeria"
-    ],
-    "direccion": "Gral Artigas, Nueva Palmira Colonia"
-  },
-  {
-    "nombre": "Mansion Skornik",
-    "categorias": [
-      "Housing Development"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Almazara Familia Longo",
-    "categorias": [
-      "Farm"
-    ],
-    "direccion": "Ruta 21 Km. 270 | Colonia Belgrano Sur, entre Carmelo y Nueva Palmira, 70100 Colonia Belgrano Uruguay"
-  },
-  {
-    "nombre": "Tyler Durden House",
-    "categorias": [
-      "Brewery"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Hito del Río de la Plata",
-    "categorias": [
-      "River"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Rincon de Darwin",
-    "categorias": [
-      "Scenic Lookout"
-    ],
-    "direccion": "Punta Gorda"
   }
 ]

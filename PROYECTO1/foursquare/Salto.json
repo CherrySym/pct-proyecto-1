@@ -1,39 +1,10 @@
 [
   {
-    "nombre": "Heladería Nevada",
-    "categorias": [
-      "Ice Cream Parlor"
-    ],
-    "direccion": "Artigas 801 (Larrañaga), 50000 Salto Salto"
-  },
-  {
-    "nombre": "Heladería Alfredito",
-    "categorias": [
-      "Ice Cream Parlor",
-      "Hot Dog Joint"
-    ],
-    "direccion": "19 de Abril 1798 (Santos Errandonea), 50000 Salto Salto"
-  },
-  {
     "nombre": "Cavern resto pub",
     "categorias": [
       "Restaurant"
     ],
     "direccion": "Brasil 200, 50000 Salto Salto"
-  },
-  {
-    "nombre": "La 2000 Pizzería",
-    "categorias": [
-      "Pizzeria"
-    ],
-    "direccion": "Blandengues 195 (19 de Abril), 50000 Salto Salto"
-  },
-  {
-    "nombre": "Plaza Artigas",
-    "categorias": [
-      "Plaza"
-    ],
-    "direccion": "Uruguay s/n (18 de Julio), 50000 Salto Salto"
   },
   {
     "nombre": "La Trattoria",
@@ -43,40 +14,11 @@
     "direccion": "Uruguay 754 (Sarandí), 50000 Salto Salto"
   },
   {
-    "nombre": "El Revoltijo",
-    "categorias": [
-      "Grocery Store"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "La caldera",
-    "categorias": [
-      "BBQ Joint"
-    ],
-    "direccion": "Salto Salto"
-  },
-  {
     "nombre": "Trouville Pizza",
     "categorias": [
       "Restaurant"
     ],
     "direccion": "Calle Uruguay (Sarandi), Salto Salto"
-  },
-  {
-    "nombre": "Castillo San Carlos",
-    "categorias": [
-      "Historic and Protected Site"
-    ],
-    "direccion": "Luis Arrieta, 3200 Concordia, Entre Ríos"
-  },
-  {
-    "nombre": "Costanera de Concordia",
-    "categorias": [
-      "Harbor or Marina",
-      "Park"
-    ],
-    "direccion": "Av. Costanera, 3200 Concordia, Entre Ríos"
   },
   {
     "nombre": "Casa de Lamas",
@@ -86,49 +28,11 @@
     "direccion": "Dr. Chiazzaro 20 (Purificación), 50000 Salto Salto"
   },
   {
-    "nombre": "La Recova",
-    "categorias": [
-      "Diner"
-    ],
-    "direccion": "Uruguay (25 De Agosto), Salto Salto"
-  },
-  {
-    "nombre": "Catedral de Salto",
-    "categorias": [],
-    "direccion": "25 de Agosto (Uruguay), 50000 Salto Salto"
-  },
-  {
-    "nombre": "Heladeria Alfredito",
-    "categorias": [],
-    "direccion": "Uruguay 1080 (Viera), 50000 Salto Salto"
-  },
-  {
-    "nombre": "Supermercado Ta-Ta",
-    "categorias": [
-      "Grocery Store"
-    ],
-    "direccion": "19 de Abril (Soca), 50000 Salto Salto"
-  },
-  {
     "nombre": "Mates",
     "categorias": [
       "Argentinian Restaurant"
     ],
     "direccion": "Urquiza (San Lorenzo), 3200 Concordia, Entre Ríos"
-  },
-  {
-    "nombre": "Trouville Shopping",
-    "categorias": [
-      "Coffee Shop"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "El Mojarra Av. Barbieri",
-    "categorias": [
-      "BBQ Joint"
-    ],
-    "direccion": ""
   },
   {
     "nombre": "Cristobal Cafe",
@@ -139,68 +43,11 @@
     "direccion": "Carlos Pellegrini 611 (1 de Mayo), E3400 Concordia, Entre Ríos"
   },
   {
-    "nombre": "Bagashopping",
-    "categorias": [
-      "Shopping Mall"
-    ],
-    "direccion": "Juan H. Paiva (Gobernador de Viana), 50000 Salto Salto"
-  },
-  {
-    "nombre": "Rio Uruguay",
-    "categorias": [
-      "River"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Supermercado TaTa",
-    "categorias": [
-      "Shopping Mall"
-    ],
-    "direccion": "Asencio (Silvestre Blanco), Salto Salto"
-  },
-  {
-    "nombre": "El Reloj",
-    "categorias": [
-      "Pizzeria"
-    ],
-    "direccion": "3200 Concordia, Entre Ríos"
-  },
-  {
     "nombre": "Parrilla Lo Del Gordo",
     "categorias": [
       "Argentinian Restaurant"
     ],
     "direccion": "3200 Concordia, Entre Ríos"
-  },
-  {
-    "nombre": "Bonafide",
-    "categorias": [
-      "Coffee Shop"
-    ],
-    "direccion": "Mitre (Urquiza), Rios Concordia, Entre Ríos"
-  },
-  {
-    "nombre": "Hotel Palmar",
-    "categorias": [
-      "Hotel Bar"
-    ],
-    "direccion": "Justo José De Urquiza 571, 3200 Concordia, Entre Ríos"
-  },
-  {
-    "nombre": "Parque Rivadavia (San Carlos)",
-    "categorias": [
-      "Park"
-    ],
-    "direccion": "3200 Concordia, Entre Ríos"
-  },
-  {
-    "nombre": "Carrefour",
-    "categorias": [
-      "Supermarket",
-      "Grocery Store"
-    ],
-    "direccion": "Eva Peron, 3200 Concordia, Entre Ríos"
   },
   {
     "nombre": "El Mojarra Costa",
@@ -210,48 +57,11 @@
     "direccion": ""
   },
   {
-    "nombre": "Termas del Daymán",
-    "categorias": [
-      "Hot Spring",
-      "Swimming Pool"
-    ],
-    "direccion": "Ruta 3 Km 483, 50000 Salto Salto"
-  },
-  {
     "nombre": "El Rancho Spetto Corrido",
     "categorias": [
       "South American Restaurant"
     ],
     "direccion": "Ruta 3 km 488,3, 50000 Salto Salto"
-  },
-  {
-    "nombre": "Puente Hache",
-    "categorias": [
-      "Bar"
-    ],
-    "direccion": "3200 Concordia, Entre Ríos"
-  },
-  {
-    "nombre": "Ayui",
-    "categorias": [
-      "Beer Garden"
-    ],
-    "direccion": "Costanera Norte. (Costanera.), 50000 Salto Salto"
-  },
-  {
-    "nombre": "Guapa",
-    "categorias": [
-      "BBQ Joint",
-      "Gastropub"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Amarenas Pub & Decks",
-    "categorias": [
-      "Pub"
-    ],
-    "direccion": "3200 Concordia, Entre Ríos"
   },
   {
     "nombre": "By Lola Resto Bar & Beer",
@@ -262,98 +72,5 @@
       "Argentinian Restaurant"
     ],
     "direccion": "Calle 1 de Mayo 473, 3200 Concordia, Entre Ríos"
-  },
-  {
-    "nombre": "Gimnacio thot",
-    "categorias": [
-      "Sports and Recreation"
-    ],
-    "direccion": "Buenos aires 425, 2741 Salto Salto"
-  },
-  {
-    "nombre": "Costa Cruz",
-    "categorias": [
-      "Beer Garden"
-    ],
-    "direccion": "3200 Concordia, Entre Ríos"
-  },
-  {
-    "nombre": "Costanera de Concordia",
-    "categorias": [
-      "Waterfront"
-    ],
-    "direccion": "3200 Concordia, Entre Ríos"
-  },
-  {
-    "nombre": "Plaza 25 De Mayo",
-    "categorias": [
-      "Plaza"
-    ],
-    "direccion": "3200 Concordia, Entre Ríos"
-  },
-  {
-    "nombre": "Bar Ideal",
-    "categorias": [
-      "Bar"
-    ],
-    "direccion": "1 de Mayo 51 (esq. Urquiza), E3200 Concordia, Entre Ríos"
-  },
-  {
-    "nombre": "Ghetto",
-    "categorias": [
-      "Night Club"
-    ],
-    "direccion": "1 De Mayo (H. Irigoyen), 3200 Concordia, Entre Ríos"
-  },
-  {
-    "nombre": "Guevariano",
-    "categorias": [
-      "Bar"
-    ],
-    "direccion": "3200 Concordia, Entre Ríos"
-  },
-  {
-    "nombre": "Centro Civico De Concordia",
-    "categorias": [
-      "Government Building"
-    ],
-    "direccion": "3200 Concordia, Entre Ríos"
-  },
-  {
-    "nombre": "Peatonal De Concordia",
-    "categorias": [
-      "Other Great Outdoors"
-    ],
-    "direccion": "3200 Concordia, Entre Ríos"
-  },
-  {
-    "nombre": "Termas Sol y Luna",
-    "categorias": [
-      "Hot Spring"
-    ],
-    "direccion": "Los Molles s/n, 50000 Termas del Daymán Salto"
-  },
-  {
-    "nombre": "Parque Acuático Acuamanía",
-    "categorias": [
-      "Swimming Pool"
-    ],
-    "direccion": "Termas del Daymán, 50000 Salto Salto"
-  },
-  {
-    "nombre": "la pasiva termas",
-    "categorias": [
-      "Pizzeria"
-    ],
-    "direccion": "Av. Paysandu, Termas Del Dayman Salto"
-  },
-  {
-    "nombre": "Parque Acuático Horacio Quiroga",
-    "categorias": [
-      "Water Park",
-      "Swimming Pool",
-      "Hot Spring"
-    ],
-    "direccion": "Paraje Salto Grande, 50000 Salto Salto"
   }
 ]

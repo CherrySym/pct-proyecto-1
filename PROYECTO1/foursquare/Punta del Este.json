@@ -7,20 +7,6 @@
     "direccion": "Punta del Este Maldonado"
   },
   {
-    "nombre": "Rambla Punta Del Este",
-    "categorias": [
-      "Landmarks and Outdoors"
-    ],
-    "direccion": "Punta del Este Maldonado"
-  },
-  {
-    "nombre": "Arlecchino",
-    "categorias": [
-      "Ice Cream Parlor"
-    ],
-    "direccion": "Gorlero 612 (e/ 19 y 20), Punta del Este Maldonado"
-  },
-  {
     "nombre": "El Emir",
     "categorias": [
       "Beach",
@@ -29,47 +15,10 @@
     "direccion": "Rambla (Calle 28), Punta del Este Maldonado"
   },
   {
-    "nombre": "Península",
-    "categorias": [
-      "Neighborhood",
-      "Plaza"
-    ],
-    "direccion": "Punta del Este Maldonado"
-  },
-  {
-    "nombre": "Rambla del Puerto",
-    "categorias": [
-      "Waterfront"
-    ],
-    "direccion": "Punta del Este Maldonado"
-  },
-  {
     "nombre": "Yacht Club Punta del Este",
     "categorias": [
       "Harbor or Marina",
       "Restaurant"
-    ],
-    "direccion": "Punta del Este Maldonado"
-  },
-  {
-    "nombre": "Rustic Bar",
-    "categorias": [
-      "Bar",
-      "Bistro"
-    ],
-    "direccion": "Calle 29 (Gorlero), Punta del Este Maldonado"
-  },
-  {
-    "nombre": "La Cantina Del Candado",
-    "categorias": [
-      "Bar"
-    ],
-    "direccion": "Calle 24 (El estrecho), 20100 Punta del Este Maldonado"
-  },
-  {
-    "nombre": "Punta Del Leste",
-    "categorias": [
-      "Arts and Entertainment"
     ],
     "direccion": "Punta del Este Maldonado"
   },
@@ -81,47 +30,11 @@
     "direccion": "Rambla General Jose Gervasio Artigas (Gorlero), Punta del Este Maldonado"
   },
   {
-    "nombre": "Crêpas",
-    "categorias": [
-      "Creperie"
-    ],
-    "direccion": "Calle 27 (e/ Gorlero y 24), 20100 Punta del Este Maldonado"
-  },
-  {
-    "nombre": "Capi",
-    "categorias": [
-      "Brewery"
-    ],
-    "direccion": "27 (Gorlero), Punta del Este Maldonado"
-  },
-  {
-    "nombre": "Faro de Punta del Este",
-    "categorias": [
-      "Lighthouse",
-      "Historic and Protected Site"
-    ],
-    "direccion": "2 De Febrero, Punta del Este Maldonado"
-  },
-  {
-    "nombre": "Churros Manolo",
-    "categorias": [
-      "Bakery"
-    ],
-    "direccion": "Las Gaviotas (Gorlero), Punta del Este Maldonado"
-  },
-  {
     "nombre": "Playa Mansa Parada 1",
     "categorias": [
       "Beach"
     ],
     "direccion": "Punta del Este Maldonado"
-  },
-  {
-    "nombre": "La Glorieta",
-    "categorias": [
-      "Scenic Lookout"
-    ],
-    "direccion": "Puerto de Punta del Este, Punta del Este Maldonado"
   },
   {
     "nombre": "El Pobre Marino",
@@ -132,13 +45,6 @@
     "direccion": "Calle 11 No 694 esq. 12, Punta del Este Maldonado"
   },
   {
-    "nombre": "Freddo",
-    "categorias": [
-      "Ice Cream Parlor"
-    ],
-    "direccion": "Calle 20, Punta del Este Maldonado"
-  },
-  {
     "nombre": "Virazón",
     "categorias": [
       "Seafood Restaurant"
@@ -146,40 +52,11 @@
     "direccion": "Rambla Artigas (Calle 28), Punta del Este Maldonado"
   },
   {
-    "nombre": "Los Dedos",
-    "categorias": [
-      "Outdoor Sculpture"
-    ],
-    "direccion": "Rambla General Jose Artigas, Punta del Este Maldonado"
-  },
-  {
-    "nombre": "Pecas Helados Cafe",
-    "categorias": [
-      "Ice Cream Parlor"
-    ],
-    "direccion": "Punta del Este Maldonado"
-  },
-  {
     "nombre": "Virazón Puerto",
     "categorias": [
       "Restaurant"
     ],
     "direccion": "Punta del Este Maldonado"
-  },
-  {
-    "nombre": "Fifth Ave.",
-    "categorias": [
-      "Clothing Store",
-      "Miscellaneous Store"
-    ],
-    "direccion": "Calle 20, Maldonado Punta Del Este"
-  },
-  {
-    "nombre": "Gelateria Il Porto di Punta del Este",
-    "categorias": [
-      "Ice Cream Parlor"
-    ],
-    "direccion": "El Trinquete 1181 (Rbla. Gral. José Artigas), 20100 Punta del Este Maldonado"
   },
   {
     "nombre": "Restaurante Punta Salina",
@@ -203,25 +80,11 @@
     "direccion": "Rambla (Av. Roosevelt), 20100 Punta del Este Maldonado"
   },
   {
-    "nombre": "La Punta del Este",
-    "categorias": [
-      "Scenic Lookout"
-    ],
-    "direccion": "Punta del Este Maldonado"
-  },
-  {
     "nombre": "La Olla",
     "categorias": [
       "Beach"
     ],
     "direccion": "Rambla parada 3, Punta del Este Maldonado"
-  },
-  {
-    "nombre": "Plaza México",
-    "categorias": [
-      "Plaza"
-    ],
-    "direccion": "Av. Italia (Yucatán), 20100 Punta del Este Maldonado"
   },
   {
     "nombre": "Playa Brava - Parada 3",
@@ -245,13 +108,6 @@
     "direccion": "Rambla Lorenzo Batlle Pacheco, 20100 Punta del Este Maldonado"
   },
   {
-    "nombre": "481 Gourmet",
-    "categorias": [
-      "BBQ Joint"
-    ],
-    "direccion": "Av. Pedragosa Sierra, 20100 Punta del Este Maldonado"
-  },
-  {
     "nombre": "Playa Mansa",
     "categorias": [
       "Beach"
@@ -266,42 +122,11 @@
     "direccion": "Av. Pedragosa Sierra (Bvar. Artigas), 20100 Punta del Este Maldonado"
   },
   {
-    "nombre": "Isla Gorriti",
-    "categorias": [
-      "Island",
-      "Scenic Lookout"
-    ],
-    "direccion": "Río de la Plata, Punta del Este Maldonado"
-  },
-  {
-    "nombre": "Tea For Three",
-    "categorias": [
-      "Bistro",
-      "Breakfast Spot",
-      "Deli"
-    ],
-    "direccion": "San Francisco (Pascual Gattas), 20100 Punta del Este Maldonado"
-  },
-  {
     "nombre": "8 de La Mansa",
     "categorias": [
       "Beach"
     ],
     "direccion": "Rbla. Claudio Williman, Punta del Este Maldonado"
-  },
-  {
-    "nombre": "Vinos del Mundo",
-    "categorias": [
-      "Wine Store"
-    ],
-    "direccion": "Punta del Este Maldonado"
-  },
-  {
-    "nombre": "Tienda Inglesa",
-    "categorias": [
-      "Supermarket"
-    ],
-    "direccion": "Av. Roosevelt (Los Alpes), 20100 Punta del Este Maldonado"
   },
   {
     "nombre": "La Bourgogne",
@@ -353,12 +178,5 @@
       "Night Club"
     ],
     "direccion": "Parada 12 Brava (Parada 12), 20100 Punta del Este Maldonado"
-  },
-  {
-    "nombre": "Museo Ralli",
-    "categorias": [
-      "Art Museum"
-    ],
-    "direccion": "Av. Pedragosa sierra (Curupay), Punta del Este Maldonado"
   }
 ]

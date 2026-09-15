@@ -1,125 +1,5 @@
 [
   {
-    "nombre": "Confitería Irisarri",
-    "categorias": [
-      "Bakery",
-      "Café"
-    ],
-    "direccion": "Treinta y Tres 618, Minas Lavalleja"
-  },
-  {
-    "nombre": "Ki-Joia",
-    "categorias": [
-      "Steakhouse"
-    ],
-    "direccion": "Domingo Pérez (Treinta y Tres), Minas Lavalleja"
-  },
-  {
-    "nombre": "Parque Rodó de Minas",
-    "categorias": [
-      "Park"
-    ],
-    "direccion": "Minas Lavalleja"
-  },
-  {
-    "nombre": "Plaza Libertad",
-    "categorias": [
-      "Plaza"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Plaza Lavalleja",
-    "categorias": [
-      "Plaza"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Bajo Cero",
-    "categorias": [
-      "Ice Cream Parlor"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Casa del Partido Nacional (Lavalleja)",
-    "categorias": [
-      "Historic and Protected Site"
-    ],
-    "direccion": "18 de Julio (Florencio Sanchez), Minas Lavalleja"
-  },
-  {
-    "nombre": "Catedral De Minas",
-    "categorias": [
-      "Church"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "El Dorado",
-    "categorias": [
-      "Retail"
-    ],
-    "direccion": "Minas Lavalleja"
-  },
-  {
-    "nombre": "Plaza Libertad",
-    "categorias": [
-      "Plaza"
-    ],
-    "direccion": "Juan Farina, 30000 Minas Lavalleja"
-  },
-  {
-    "nombre": "Plaza Rivera",
-    "categorias": [
-      "Plaza"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Parrilla y Rotiseria Walter",
-    "categorias": [
-      "BBQ Joint"
-    ],
-    "direccion": "Luis Alberto De Herrera (Ferreira Aldunate), Minas Lavalleja"
-  },
-  {
-    "nombre": "Villa Serrana",
-    "categorias": [
-      "Field"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Salto Del Penitente",
-    "categorias": [
-      "Scenic Lookout"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "La Galponera - Minas",
-    "categorias": [
-      "BBQ Joint"
-    ],
-    "direccion": "Luis Alberto de Herrera (Pérez del Puerto), 30000 Minas Lavalleja"
-  },
-  {
-    "nombre": "Rambla de Minas",
-    "categorias": [
-      "Park"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Minas Shopping",
-    "categorias": [
-      "Shopping Mall"
-    ],
-    "direccion": "30000 Departamento de Lavalleja Lavalleja"
-  },
-  {
     "nombre": "Restaurante San Francisco",
     "categorias": [
       "Latin American Restaurant"
@@ -134,83 +14,12 @@
     "direccion": ""
   },
   {
-    "nombre": "Santuario de la Virgen del Verdún",
-    "categorias": [
-      "Other Great Outdoors"
-    ],
-    "direccion": "Cerro Del Verdún, Lavalleja Lavalleja"
-  },
-  {
-    "nombre": "valle del hilo de la vida",
-    "categorias": [
-      "Field"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Reserva Natural Salus",
-    "categorias": [
-      "Nature Preserve",
-      "Park"
-    ],
-    "direccion": "Minas, Lavalleja Lavalleja"
-  },
-  {
-    "nombre": "Departamento de Lavalleja",
-    "categorias": [
-      "Other Great Outdoors"
-    ],
-    "direccion": ""
-  },
-  {
     "nombre": "Parador Salus",
     "categorias": [
       "Park",
       "South American Restaurant"
     ],
     "direccion": "Lavalleja"
-  },
-  {
-    "nombre": "Parque Salus",
-    "categorias": [
-      "Park"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Parador Arequita",
-    "categorias": [
-      "Steakhouse"
-    ],
-    "direccion": "Camping Arequita, Lavalleja"
-  },
-  {
-    "nombre": "Salto Del Penitente",
-    "categorias": [
-      "Scenic Lookout"
-    ],
-    "direccion": "Villa Serrana Lavalleja"
-  },
-  {
-    "nombre": "Camping Arequita",
-    "categorias": [
-      "Campground"
-    ],
-    "direccion": "Minas- Lavalleja"
-  },
-  {
-    "nombre": "Fuente del Puma",
-    "categorias": [
-      "Park"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Camping Arequita",
-    "categorias": [
-      "Campground"
-    ],
-    "direccion": "Minas- Lavalleja Lavalleja"
   },
   {
     "nombre": "Parador Parque Del Penitente",
@@ -220,38 +29,10 @@
     "direccion": "Lavalleja"
   },
   {
-    "nombre": "Centro Budista",
-    "categorias": [
-      "Mountain"
-    ],
-    "direccion": ""
-  },
-  {
     "nombre": "Estación Penitente",
     "categorias": [
       "Restaurant"
     ],
     "direccion": "Camino Al Salto Del Penitente, Sección 01 Lavalleja"
-  },
-  {
-    "nombre": "Campo",
-    "categorias": [
-      "Field"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Chacra Rincon De Piedra",
-    "categorias": [
-      "Field"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Centro Budista",
-    "categorias": [
-      "Temple"
-    ],
-    "direccion": ""
   }
 ]

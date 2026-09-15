@@ -24,82 +24,11 @@
     "direccion": "San José 1168, Montevideo Montevideo"
   },
   {
-    "nombre": "Auditorio Nacional del Sodre Dra. Adela Reta",
-    "categorias": [
-      "Concert Hall",
-      "Performing Arts Venue",
-      "Theater"
-    ],
-    "direccion": "Andes (Mercedes), 11100 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Sala Zitarrosa",
-    "categorias": [
-      "Music Venue"
-    ],
-    "direccion": "Av. 18 de Julio 1012 (e/ Río Negro y Julio Herrera y Obes), 11100 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Candy Bar Palermo",
-    "categorias": [
-      "Cocktail Bar",
-      "Gastropub"
-    ],
-    "direccion": "Durazno 1402 (Santiago De Chile), 11200 Palermo Montevideo"
-  },
-  {
-    "nombre": "Plaza Independencia",
-    "categorias": [
-      "Plaza"
-    ],
-    "direccion": "Av. 18 de Julio (esq. Plaza Independencia), 11100 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Colegio Seminario",
-    "categorias": [
-      "High School",
-      "Elementary School",
-      "Nursery School"
-    ],
-    "direccion": "Soriano 1472 (e/ Barrios Amorín y Martínez Trueba), 11200 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Teatro Solís",
-    "categorias": [
-      "Opera House",
-      "Theater",
-      "Concert Hall"
-    ],
-    "direccion": "Buenos Aires s/nº (e/ Liniers y Bartolomé Mitre), 11000 Montevideo Montevideo"
-  },
-  {
     "nombre": "La Molienda",
     "categorias": [
       "Vegan and Vegetarian Restaurant"
     ],
     "direccion": ""
-  },
-  {
-    "nombre": "La Ibérica",
-    "categorias": [
-      "Furniture and Home Store"
-    ],
-    "direccion": "Rincon 711 (Juncal), 11000 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Rambla Gran Bretaña",
-    "categorias": [
-      "Scenic Lookout"
-    ],
-    "direccion": "Rambla Gran Bretaña (e/ Misiones y Convención), Montevideo Montevideo"
-  },
-  {
-    "nombre": "Puerta de la Ciudadela",
-    "categorias": [
-      "Monument",
-      "Historic and Protected Site"
-    ],
-    "direccion": "Juncal (Sarandí), Montevideo Montevideo"
   },
   {
     "nombre": "La Cocina de Pedro",
@@ -111,62 +40,6 @@
     "direccion": "Gonzalo Ramírez 1483 (e/ Barrios Amorín y Martínez Trueba), 11100 Montevideo Montevideo"
   },
   {
-    "nombre": "La Greca Café",
-    "categorias": [
-      "Coffee Shop"
-    ],
-    "direccion": "San Salvador 1471 (Martínez Trueba), 11200 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Centro Cultural de España",
-    "categorias": [
-      "Art Gallery",
-      "Library"
-    ],
-    "direccion": "Rincon 629 (Bartolomé Mitre), 11000 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Mirador Intendencia de Montevideo",
-    "categorias": [
-      "Scenic Lookout"
-    ],
-    "direccion": "18 de Julio (Ejido), 11200 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Mandarino",
-    "categorias": [
-      "Deli"
-    ],
-    "direccion": "Maldonado 1606 (Lorenzo Carnelli), Montevideo Montevideo"
-  },
-  {
-    "nombre": "Confitería 25 De Mayo",
-    "categorias": [
-      "Dessert Shop",
-      "Bakery",
-      "Sandwich Spot"
-    ],
-    "direccion": "25 de Mayo 655 (Bartolome Mitre), 11200 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Tropical Smoothies",
-    "categorias": [
-      "Juice Bar",
-      "Café",
-      "Sandwich Spot"
-    ],
-    "direccion": "Buenos Aires 614 (Juan Carlos Gómez), 11000 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Palacio Legislativo",
-    "categorias": [
-      "Government Building",
-      "Monument",
-      "Capitol Building"
-    ],
-    "direccion": "Av. de las Leyes s/n (esq. Av. Libertador), Montevideo Montevideo"
-  },
-  {
     "nombre": "Café Gourmand",
     "categorias": [
       "French Restaurant",
@@ -174,15 +47,6 @@
       "Coffee Roaster"
     ],
     "direccion": "Constituyente, 1869, 11200 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Escarmuza Librería y Café",
-    "categorias": [
-      "Bookstore",
-      "Café",
-      "Coffee Shop"
-    ],
-    "direccion": "Pablo de María 1185 (Canelones), Montevideo Montevideo"
   },
   {
     "nombre": "Su Bar",
@@ -201,120 +65,11 @@
     "direccion": "San Salvador 1952 (Jackson), 11200 Montevideo Montevideo"
   },
   {
-    "nombre": "Mercado Ferrando",
-    "categorias": [
-      "Food Court",
-      "Market"
-    ],
-    "direccion": "Chana 2120 (Joaquín de Salterain), 11200 Montevideo Montevideo"
-  },
-  {
-    "nombre": "ThePutaMadre Bar",
-    "categorias": [
-      "Bar",
-      "Brewery",
-      "Gastropub"
-    ],
-    "direccion": "Canelones (Jackson), Montevideo Montevideo"
-  },
-  {
-    "nombre": "Hey chopp",
-    "categorias": [
-      "Bar",
-      "Brewery"
-    ],
-    "direccion": "Paullier (Rivera), Montevideo Montevideo"
-  },
-  {
-    "nombre": "Rambla Parque Rodó",
-    "categorias": [
-      "Waterfront",
-      "Other Great Outdoors",
-      "Scenic Lookout"
-    ],
-    "direccion": "Montevideo Montevideo"
-  },
-  {
-    "nombre": "Pancho Va!",
-    "categorias": [
-      "Hot Dog Joint"
-    ],
-    "direccion": "Br España 2140 Bis, Montevideo Montevideo"
-  },
-  {
-    "nombre": "Mercado Agrícola de Montevideo",
-    "categorias": [
-      "Market",
-      "Food Court",
-      "Shopping Mall"
-    ],
-    "direccion": "José L. Terra 2220 (e/ Martín García y Amézaga), 11800 Montevideo Montevideo"
-  },
-  {
-    "nombre": "El Cuadrado",
-    "categorias": [
-      "Skate Park"
-    ],
-    "direccion": "Rambla República Argentina (Jackson), 11200 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Obrador",
-    "categorias": [
-      "Bakery",
-      "Coffee Shop"
-    ],
-    "direccion": "Pablo de Maria 899 (Dr Lauro Muller), 11300 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Parque Rodó",
-    "categorias": [
-      "Park"
-    ],
-    "direccion": "Av. Julio Herrera y Reissig (esq. Gonzalo Ramírez y Sarmiento), 11300 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Café del Mercado",
-    "categorias": [
-      "Coffee Shop"
-    ],
-    "direccion": "Jose L Terra 2220 Local 41 (Martín Garcia), Montevideo Montevideo"
-  },
-  {
-    "nombre": "ZonaTecno",
-    "categorias": [
-      "Electronics Store",
-      "Mobile Phone Store"
-    ],
-    "direccion": "18 de Julio 2201 (Dr. Alejandro Beisso), 11200 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Inmigrantes",
-    "categorias": [
-      "Bar"
-    ],
-    "direccion": "11200 Montevideo Montevideo"
-  },
-  {
     "nombre": "Club De Pesca Noa Noa",
     "categorias": [
       "Beach"
     ],
     "direccion": "Montevideo Montevideo"
-  },
-  {
-    "nombre": "Museo Nacional de Artes Visuales del Parque Rodó",
-    "categorias": [
-      "Museum"
-    ],
-    "direccion": "Julio Herrera y Reissig s/n (Tomás Giribaldi), 11300 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Obelisco a los Constituyentes de 1830",
-    "categorias": [
-      "Monument",
-      "Historic and Protected Site"
-    ],
-    "direccion": "Bv. Artigas (Av. 18 de Julio), Montevideo Montevideo"
   },
   {
     "nombre": "SushiTrue",
@@ -333,56 +88,12 @@
     "direccion": "Patria 699 (Figueira), Montevideo Montevideo"
   },
   {
-    "nombre": "Canteras del Parque Rodó",
-    "categorias": [
-      "Park",
-      "Scenic Lookout",
-      "Hiking Trail"
-    ],
-    "direccion": "Rambla Pte. Wilson (y Av. Dr. Juan A. Cachón), Montevideo Montevideo"
-  },
-  {
-    "nombre": "Pellegrin Boutique Gourmet",
-    "categorias": [
-      "Deli"
-    ],
-    "direccion": "Gregorio Suarez 2734 (Coronal Mora), Montevideo Montevideo"
-  },
-  {
-    "nombre": "Congelados Glacial",
-    "categorias": [
-      "Grocery Store"
-    ],
-    "direccion": "Duvimioso Terra 2050 (Hocquart), 11800 Montevideo Montevideo"
-  },
-  {
-    "nombre": "La Pulpería",
-    "categorias": [
-      "BBQ Joint"
-    ],
-    "direccion": "Lagunillas 448 (Joaquín Núñez), Montevideo Montevideo"
-  },
-  {
     "nombre": "Francis",
     "categorias": [
       "Mediterranean Restaurant",
       "Seafood Restaurant"
     ],
     "direccion": "Luis de la Torre 502 (Jose Maria Montero), 11300 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Café Doré",
-    "categorias": [
-      "Coffee Shop"
-    ],
-    "direccion": "Avenida General Rivera 2628 (Brito del Pino), Montevideo Montevideo"
-  },
-  {
-    "nombre": "Adolfo Café",
-    "categorias": [
-      "Café"
-    ],
-    "direccion": "Williman 597, 11300 Montevideo Montevideo"
   },
   {
     "nombre": "Tandory",

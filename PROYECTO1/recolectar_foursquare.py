@@ -19,6 +19,7 @@ HEADERS = {
     "X-Places-Api-Version": "2025-06-17"
 }
 
+
 CARPETA_CACHE = pathlib.Path(__file__).resolve().parent / "foursquare"
 
 ARCHIVO_COORDS = (
@@ -29,7 +30,14 @@ ARCHIVO_COORDS = (
 )
 
 
-def buscar_lugares(lat, lon, categoria=None, radius=20000, limit=50, reintentos=3):
+def buscar_lugares(
+    lat,
+    lon,
+    categoria=None,
+    radius=20000,
+    limit=50,
+    reintentos=3
+):
 
     params = {
         "ll": f"{lat},{lon}",
@@ -83,6 +91,33 @@ def buscar_lugares(lat, lon, categoria=None, radius=20000, limit=50, reintentos=
     )
 
 
+def filtrar_lugares(lugares):
+
+    filtrados = []
+
+    for lugar in lugares:
+
+        categorias = [
+            c.get("name", "").lower()
+            for c in lugar.get("categories", [])
+        ]
+
+        es_restaurante = any(
+            "restaurant" in categoria
+            for categoria in categorias
+        )
+
+        es_playa = any(
+            "beach" in categoria
+            for categoria in categorias
+        )
+
+        if es_restaurante or es_playa:
+            filtrados.append(lugar)
+
+    return filtrados
+
+
 def limpiar_lugares(lugares):
 
     limpio = []
@@ -90,7 +125,10 @@ def limpiar_lugares(lugares):
     for l in lugares:
 
         limpio.append({
-            "nombre": l.get("name", "Sin nombre"),
+            "nombre": l.get(
+                "name",
+                "Sin nombre"
+            ),
             "categorias": [
                 c.get("name")
                 for c in l.get("categories", [])
@@ -114,7 +152,10 @@ def buscar_lugares_cacheado(
     carpeta_cache=CARPETA_CACHE
 ):
 
-    os.makedirs(carpeta_cache, exist_ok=True)
+    os.makedirs(
+        carpeta_cache,
+        exist_ok=True
+    )
 
     ruta = os.path.join(
         carpeta_cache,
@@ -136,8 +177,12 @@ def buscar_lugares_cacheado(
         lon
     )
 
-    resultados_limpios = limpiar_lugares(
+    resultados_filtrados = filtrar_lugares(
         resultados_crudos
+    )
+
+    resultados_limpios = limpiar_lugares(
+        resultados_filtrados
     )
 
     with open(
@@ -184,7 +229,11 @@ def recolectar_lugares():
             lat = float(lat)
             lon = float(lon)
 
-            nombre_archivo = nombre_destino.split(",")[0].strip()
+            nombre_archivo = (
+                nombre_destino
+                .split(",")[0]
+                .strip()
+            )
 
             lugares = buscar_lugares_cacheado(
                 lat,
@@ -193,10 +242,10 @@ def recolectar_lugares():
             )
 
             print(
-                f"{len(lugares)} lugares guardados para {nombre_archivo}"
+                f"{len(lugares)} lugares guardados para "
+                f"{nombre_archivo}"
             )
 
 
 if __name__ == "__main__":
-
     recolectar_lugares()

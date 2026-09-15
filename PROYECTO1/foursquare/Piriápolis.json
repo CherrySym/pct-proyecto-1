@@ -1,20 +1,5 @@
 [
   {
-    "nombre": "Rambla de Piriápolis",
-    "categorias": [
-      "Waterfront"
-    ],
-    "direccion": "Piriápolis Maldonado"
-  },
-  {
-    "nombre": "El Forastero Winery",
-    "categorias": [
-      "Liquor Store",
-      "Wine Store"
-    ],
-    "direccion": "Avenida Francisco Piria 818 (Talcahuano), 20200 Piriapolis Maldonado"
-  },
-  {
     "nombre": "Playa de Piriápolis",
     "categorias": [
       "Beach"
@@ -29,53 +14,11 @@
     "direccion": "Cerro San Antonio, Piriápolis Maldonado"
   },
   {
-    "nombre": "Cerro San Antonio",
-    "categorias": [
-      "Park"
-    ],
-    "direccion": "Cerro San Antonio, Piriápolis Maldonado"
-  },
-  {
-    "nombre": "Fuente De Venus",
-    "categorias": [
-      "Plaza"
-    ],
-    "direccion": "Piriápolis Maldonado"
-  },
-  {
     "nombre": "Drakar",
     "categorias": [
       "Restaurant"
     ],
     "direccion": "Puerto, Piriapolis Maldonado"
-  },
-  {
-    "nombre": "Heladeria El Faro 2",
-    "categorias": [
-      "Ice Cream Parlor"
-    ],
-    "direccion": "Piriápolis Maldonado"
-  },
-  {
-    "nombre": "Heladería El Faro",
-    "categorias": [
-      "Ice Cream Parlor"
-    ],
-    "direccion": "Rambla de los argentinos (Freire), Piriápolis Maldonado"
-  },
-  {
-    "nombre": "Zetapé",
-    "categorias": [
-      "Pizzeria"
-    ],
-    "direccion": "Misiones (Julián Álvarez), Piriapolis Maldonado"
-  },
-  {
-    "nombre": "Heladeria Mare Blu",
-    "categorias": [
-      "Ice Cream Parlor"
-    ],
-    "direccion": "Piriápolis Maldonado"
   },
   {
     "nombre": "Kraken",
@@ -121,13 +64,6 @@
     "direccion": "Piriápolis Maldonado"
   },
   {
-    "nombre": "Iwanna Beach",
-    "categorias": [
-      "Snack Place"
-    ],
-    "direccion": "Rambla de los Argentinos, Piriápolis Maldonado"
-  },
-  {
     "nombre": "Punta Fría",
     "categorias": [
       "Beach"
@@ -140,13 +76,6 @@
       "Restaurant"
     ],
     "direccion": "Rambla de los argentinos 1254, Piriápolis Maldonado"
-  },
-  {
-    "nombre": "Castillo de Piria",
-    "categorias": [
-      "Historic and Protected Site"
-    ],
-    "direccion": "Ruta 37, Piriapolis Maldonado"
   },
   {
     "nombre": "La Tratoria Da Piero",
@@ -171,13 +100,6 @@
     "direccion": "Ruta 10"
   },
   {
-    "nombre": "Heladeria Angelote",
-    "categorias": [
-      "Ice Cream Parlor"
-    ],
-    "direccion": "Piriápolis Maldonado"
-  },
-  {
     "nombre": "El Muelle Bistro",
     "categorias": [
       "Seafood Restaurant"
@@ -192,25 +114,11 @@
     "direccion": ""
   },
   {
-    "nombre": "Casino Piriápolis",
-    "categorias": [
-      "Casino"
-    ],
-    "direccion": "Piriápolis Maldonado"
-  },
-  {
     "nombre": "Playa Hermosa",
     "categorias": [
       "Beach"
     ],
     "direccion": ""
-  },
-  {
-    "nombre": "Playa Punta Colorada",
-    "categorias": [
-      "Surf Spot"
-    ],
-    "direccion": "Calle Central, Punta Colorada Maldonado"
   },
   {
     "nombre": "La Goleta",
@@ -248,20 +156,6 @@
     "direccion": "Maldonado"
   },
   {
-    "nombre": "Playa Brava Punta Colorada",
-    "categorias": [
-      "Surf Spot"
-    ],
-    "direccion": "Punta Colorada Maldonado"
-  },
-  {
-    "nombre": "Devoto",
-    "categorias": [
-      "Market"
-    ],
-    "direccion": "Av. Piria, Piriápolis Maldonado"
-  },
-  {
     "nombre": "Sal & Pimienta",
     "categorias": [
       "Latin American Restaurant"
@@ -269,23 +163,9 @@
     "direccion": "Piriápolis Maldonado"
   },
   {
-    "nombre": "Supermercado El Dorado Piriapolis",
-    "categorias": [
-      "Grocery Store"
-    ],
-    "direccion": "Piriápolis Maldonado"
-  },
-  {
     "nombre": "Puertito Don Anselmo",
     "categorias": [
       "Restaurant"
-    ],
-    "direccion": "Piriápolis Maldonado"
-  },
-  {
-    "nombre": "Feria Sábado Terminal de Ómnibus",
-    "categorias": [
-      "Arts and Entertainment"
     ],
     "direccion": "Piriápolis Maldonado"
   },
@@ -298,46 +178,11 @@
     "direccion": "Av. Piria (Rbla. De Los Argentinos), Piriapolis Maldonado"
   },
   {
-    "nombre": "Farmashop",
-    "categorias": [
-      "Pharmacy"
-    ],
-    "direccion": "Avenida Francisco Piria (Reconquista), 20200 Piriápolis Maldonado"
-  },
-  {
-    "nombre": "La Rinconada",
-    "categorias": [
-      "Night Club"
-    ],
-    "direccion": "Rambla de los Ingleses, Piriápolis Maldonado"
-  },
-  {
-    "nombre": "Parrillada Los Tilos",
-    "categorias": [
-      "BBQ Joint"
-    ],
-    "direccion": "Piriápolis Maldonado"
-  },
-  {
-    "nombre": "Café del Mar",
-    "categorias": [
-      "Gastropub"
-    ],
-    "direccion": "Rambla de los Ingleses (Suipacha), 20200 Piriapolis Maldonado-Punta del este"
-  },
-  {
     "nombre": "El Ranchonda",
     "categorias": [
       "Restaurant"
     ],
     "direccion": "Avda. Chile Esq Lima (Lima), Punta Negra Maldonado"
-  },
-  {
-    "nombre": "Costelo",
-    "categorias": [
-      "Night Club"
-    ],
-    "direccion": "Piriapolis, Piriápolis Maldonado"
   },
   {
     "nombre": "Salon Acuario",

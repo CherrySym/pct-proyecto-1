@@ -1,63 +1,9 @@
 [
   {
-    "nombre": "Tacuarembó",
-    "categorias": [
-      "State"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Atrás da Montanha",
-    "categorias": [
-      "Mountain"
-    ],
-    "direccion": ""
-  },
-  {
     "nombre": "Las cumbres",
     "categorias": [
       "French Restaurant"
     ],
     "direccion": "Ruta 12 Km. 3.500, Laguna del Sauce Portezuelo Capital"
-  },
-  {
-    "nombre": "Estancia Valle de Asón",
-    "categorias": [
-      "Field"
-    ],
-    "direccion": "Depto. de Tacuarembó"
-  },
-  {
-    "nombre": "Estancia \"El Olvido\"",
-    "categorias": [
-      "Field"
-    ],
-    "direccion": "Ruta 26, km 300, Uruguay"
-  },
-  {
-    "nombre": "Criollos La Querencia",
-    "categorias": [
-      "Field"
-    ],
-    "direccion": "Paraje Turupí"
-  },
-  {
-    "nombre": "Villa lucero",
-    "categorias": [
-      "Field"
-    ],
-    "direccion": "Tacuarembó Tacuarembó"
-  },
-  {
-    "nombre": "Vista Alegre",
-    "categorias": [
-      "Field"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Estancia \"El Retiro\"",
-    "categorias": [],
-    "direccion": ""
   }
 ]

@@ -28,34 +28,6 @@
     "direccion": "27002 Cabo Polonio Rocha"
   },
   {
-    "nombre": "Faro de Cabo Polonio",
-    "categorias": [
-      "Lighthouse"
-    ],
-    "direccion": "27002 Cabo Polonio Rocha"
-  },
-  {
-    "nombre": "Parque Nacional Cabo Polonio",
-    "categorias": [
-      "National Park"
-    ],
-    "direccion": "Departamento de Rocha"
-  },
-  {
-    "nombre": "Lujambio",
-    "categorias": [
-      "Market"
-    ],
-    "direccion": "Cabo Polonio Rocha"
-  },
-  {
-    "nombre": "La Estación",
-    "categorias": [
-      "Night Club"
-    ],
-    "direccion": "Camino Al Faro"
-  },
-  {
     "nombre": "Posada Mariemar",
     "categorias": [
       "Seafood Restaurant"
@@ -68,27 +40,6 @@
       "Restaurant"
     ],
     "direccion": ""
-  },
-  {
-    "nombre": "La Majuga",
-    "categorias": [
-      "Fish and Chips Shop"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Timbó",
-    "categorias": [
-      "Fish and Chips Shop"
-    ],
-    "direccion": "Cabo Polonio, Cabo Polonio Rocha"
-  },
-  {
-    "nombre": "Lo De Joselo",
-    "categorias": [
-      "Beer Garden"
-    ],
-    "direccion": "Camino Al Faro"
   },
   {
     "nombre": "La Golosa",
@@ -105,26 +56,11 @@
     "direccion": "27002 Cabo Polonio Rocha"
   },
   {
-    "nombre": "Dunas De Valizas",
-    "categorias": [
-      "Other Great Outdoors",
-      "Scenic Lookout"
-    ],
-    "direccion": "Barra de Valizas Rocha"
-  },
-  {
     "nombre": "Valizas",
     "categorias": [
       "Beach"
     ],
     "direccion": "Barra de Valizas Rocha"
-  },
-  {
-    "nombre": "Punto G",
-    "categorias": [
-      "Ice Cream Parlor"
-    ],
-    "direccion": "Válizas Rocha"
   },
   {
     "nombre": "El Rabuk",
@@ -141,20 +77,6 @@
     "direccion": ""
   },
   {
-    "nombre": "Lo del Cholo",
-    "categorias": [
-      "Pizzeria"
-    ],
-    "direccion": "Barra de Valizas Rocha"
-  },
-  {
-    "nombre": "Proa",
-    "categorias": [
-      "Fish and Chips Shop"
-    ],
-    "direccion": "Barra de Valizas Rocha"
-  },
-  {
     "nombre": "Frog's",
     "categorias": [
       "South American Restaurant"
@@ -169,32 +91,11 @@
     "direccion": ""
   },
   {
-    "nombre": "Agua Na Boca",
-    "categorias": [
-      "Bakery"
-    ],
-    "direccion": "Barra de Valizas Rocha"
-  },
-  {
     "nombre": "Playa Naturista",
     "categorias": [
       "Beach"
     ],
     "direccion": ""
-  },
-  {
-    "nombre": "El León",
-    "categorias": [
-      "Night Club"
-    ],
-    "direccion": "Barra de Valizas Rocha"
-  },
-  {
-    "nombre": "Arroyo Valizas",
-    "categorias": [
-      "Bridge"
-    ],
-    "direccion": "Ruta 10, Barra de Valizas Rocha"
   },
   {
     "nombre": "La Jarana",
@@ -211,60 +112,11 @@
     "direccion": "Av. Principal, Valizas Rocha"
   },
   {
-    "nombre": "El Rey De La Milanesa",
-    "categorias": [
-      "Sandwich Spot"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Heladería Tropical",
-    "categorias": [
-      "Ice Cream Parlor"
-    ],
-    "direccion": "Aladino Veiga, Valizas Rocha"
-  },
-  {
     "nombre": "Hipocampo",
     "categorias": [
       "Restaurant"
     ],
     "direccion": "Barra de Valizas Rocha"
-  },
-  {
-    "nombre": "Feria de Artesanos",
-    "categorias": [
-      "Art Gallery"
-    ],
-    "direccion": "Barra de Valizas Rocha"
-  },
-  {
-    "nombre": "Super El Puente",
-    "categorias": [
-      "Market"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "La Comarca",
-    "categorias": [
-      "Field"
-    ],
-    "direccion": "Ruta"
-  },
-  {
-    "nombre": "Monte De Ombúes",
-    "categorias": [
-      "Field"
-    ],
-    "direccion": "Valizas"
-  },
-  {
-    "nombre": "Playa De Aguas Dulces",
-    "categorias": [
-      "Surf Spot"
-    ],
-    "direccion": ""
   },
   {
     "nombre": "Oceania del Polonio",
@@ -279,34 +131,6 @@
       "Latin American Restaurant"
     ],
     "direccion": "Cachimba y Faroles, Aguas Dulces, Aguas Dulces Rocha"
-  },
-  {
-    "nombre": "Wahieke Resto Bar",
-    "categorias": [
-      "BBQ Joint"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Mercado Artesano",
-    "categorias": [
-      "Art Gallery"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "La Taberna Del Capitan Moreau",
-    "categorias": [
-      "Cocktail Bar"
-    ],
-    "direccion": ""
-  },
-  {
-    "nombre": "Terral Bar",
-    "categorias": [
-      "Beer Garden"
-    ],
-    "direccion": ""
   },
   {
     "nombre": "Doña Tota",
@@ -335,12 +159,5 @@
       "Beach"
     ],
     "direccion": "Ruta 9, 27400  Rocha"
-  },
-  {
-    "nombre": "Iofa",
-    "categorias": [
-      "Doctor's Office"
-    ],
-    "direccion": "Uruguay 16"
   }
 ]

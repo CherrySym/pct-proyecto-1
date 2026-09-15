@@ -1,143 +1,10 @@
 [
   {
-    "nombre": "Barrio Historico",
-    "categorias": [
-      "Neighborhood",
-      "Historic and Protected Site"
-    ],
-    "direccion": "Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "Buen Suspiro",
-    "categorias": [
-      "Winery"
-    ],
-    "direccion": "Calle de los suspiros 90 (Plaza Mayor), Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "Don Joaquín",
-    "categorias": [
-      "Pizzeria"
-    ],
-    "direccion": "18 de Julio 267, Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "Calle de los Suspiros",
-    "categorias": [
-      "Historic and Protected Site",
-      "Other Great Outdoors"
-    ],
-    "direccion": "De San Pedro (Henríquez de la Peña), Colonia del Sacramento Colonia"
-  },
-  {
     "nombre": "Charco Bistró",
     "categorias": [
       "Restaurant"
     ],
     "direccion": "San Pedro 116 (De Solís), 70000 Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "Portón de Campo",
-    "categorias": [
-      "Plaza"
-    ],
-    "direccion": "Plaza de 1811, Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "Lentas Maravillas",
-    "categorias": [
-      "Café"
-    ],
-    "direccion": "Santa Rita 61, Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "Faro de Colonia",
-    "categorias": [
-      "Lighthouse"
-    ],
-    "direccion": "De San Francisco, Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "Colonia Sandwich & Coffee Shop",
-    "categorias": [
-      "Coffee Shop"
-    ],
-    "direccion": "Gral Flores 272 (Barbot), 70000 Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "Chopería Mastra",
-    "categorias": [
-      "Irish Pub"
-    ],
-    "direccion": "Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "Rambla De Las Americas",
-    "categorias": [
-      "Scenic Lookout"
-    ],
-    "direccion": "Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "Plaza Mayor 25 de Mayo",
-    "categorias": [
-      "Plaza",
-      "Park"
-    ],
-    "direccion": "Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "El Abrazo Tiendita Cultural Uruguaya",
-    "categorias": [
-      "Music Store",
-      "Bookstore",
-      "Gift Store"
-    ],
-    "direccion": "Av. Genarel Flores 272, local 2 (locales del Club Plaza) (Washington Barbot), 7000 Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "Barbot",
-    "categorias": [
-      "Gastropub",
-      "Brewery",
-      "Pub"
-    ],
-    "direccion": "Washington Barbot 160 (18 de Julio), Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "Carrito el Colonial",
-    "categorias": [
-      "Food Truck"
-    ],
-    "direccion": "Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "napo",
-    "categorias": [
-      "Pizzeria"
-    ],
-    "direccion": "18 de Julio (Barbot), 70000 Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "Mi Carrito",
-    "categorias": [
-      "Food Truck"
-    ],
-    "direccion": "Rivadavia (Lavalleja), Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "Rambla de Colonia",
-    "categorias": [
-      "Waterfront"
-    ],
-    "direccion": "70000 Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "Il Forno",
-    "categorias": [
-      "Pizzeria"
-    ],
-    "direccion": "Av Artigas, Colonia del Sacramento Colonia"
   },
   {
     "nombre": "Resto del Carmen en Radisson",
@@ -154,32 +21,11 @@
     "direccion": "Florida, Colonia del Sacramento Colonia"
   },
   {
-    "nombre": "Queriéndote Casa De Té",
-    "categorias": [
-      "Tea Room"
-    ],
-    "direccion": "Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "Freddo",
-    "categorias": [
-      "Ice Cream Parlor"
-    ],
-    "direccion": "Henriquez de la Peña 168 (Solís), 70000 Colonia del Sacramento Colonia"
-  },
-  {
     "nombre": "Casa Viera",
     "categorias": [
       "Restaurant"
     ],
     "direccion": "General Flores 65 (Del Comercio), 70000 Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "La Bodeguita",
-    "categorias": [
-      "Pizzeria"
-    ],
-    "direccion": "Del Comercio 167 (btw Del Colegio & De la Playa), Colonia del Sacramento Colonia"
   },
   {
     "nombre": "Playa colonia",
@@ -210,39 +56,11 @@
     "direccion": "Avenida Artegas, Colonia del Sacramento Colonia"
   },
   {
-    "nombre": "West Food",
-    "categorias": [
-      "Café"
-    ],
-    "direccion": "De la Playa 101, Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "Marlo",
-    "categorias": [
-      "Steakhouse"
-    ],
-    "direccion": "R. Del Comercio, 168, Colonia del Sacramento Colonia"
-  },
-  {
     "nombre": "Viejo Barrio",
     "categorias": [
       "Argentinian Restaurant"
     ],
     "direccion": "Vasconcellos 169, Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "Bastión de San Miguel",
-    "categorias": [
-      "Monument"
-    ],
-    "direccion": "De San Pedro, Colonia De Sacremento"
-  },
-  {
-    "nombre": "Bastión Del Carmen",
-    "categorias": [
-      "Art Gallery"
-    ],
-    "direccion": "Rivadavia 223, Colonia del Sacramento Colonia"
   },
   {
     "nombre": "OPB",
@@ -260,34 +78,6 @@
     "direccion": "Colonia del Sacramento Colonia"
   },
   {
-    "nombre": "Colonia Parque Ferrando",
-    "categorias": [
-      "Park"
-    ],
-    "direccion": "Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "Candela Express",
-    "categorias": [
-      "Pizzeria"
-    ],
-    "direccion": "Avenida Artigas (459), Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "Plaza Manuel Lobo",
-    "categorias": [
-      "Plaza"
-    ],
-    "direccion": "Manuel Lobo, Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "Museo del Período Histórico Portugués",
-    "categorias": [
-      "History Museum"
-    ],
-    "direccion": "Rua Henrique De La Pena, 180, Colonia del Sacramento Colonia"
-  },
-  {
     "nombre": "Istanbul Gourmet",
     "categorias": [
       "Turkish Restaurant"
@@ -300,13 +90,6 @@
       "Beach"
     ],
     "direccion": "Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "A la Pipetuá",
-    "categorias": [
-      "Bistro"
-    ],
-    "direccion": "Calle San Francisco, Colonia del Sacramento Colonia"
   },
   {
     "nombre": "La Casa de Jorge Paez Vilaro - Gallery & Restaurant",
@@ -333,13 +116,6 @@
     "direccion": "Colonia del Sacramento Colonia"
   },
   {
-    "nombre": "Deli de las Rosas",
-    "categorias": [
-      "Café"
-    ],
-    "direccion": "Colonia del Sacramento Colonia"
-  },
-  {
     "nombre": "Los Kamikases",
     "categorias": [
       "Restaurant"
@@ -352,12 +128,5 @@
       "Restaurant"
     ],
     "direccion": "Calle del Colegio 66, 70000 Colonia del Sacramento Colonia"
-  },
-  {
-    "nombre": "Los Farolitos",
-    "categorias": [
-      "Burger Joint"
-    ],
-    "direccion": "Av. General Flores, 268, Colonia del Sacramento Colonia"
   }
 ]
