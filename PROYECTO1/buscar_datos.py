@@ -58,14 +58,6 @@ def datos_destinos(archivo_salida='datos/raw/direcciones_2026.txt'):
         for destino in destinos:
             f.write(destino + '\n')
 
-def datos_clima():
-
-    return
-
-def lugares_de_interes():
-    # en el archivo reclectar_foursquare.py
-    return
-
 def datos_coords(archivo_salida='datos/raw/coords_2026.txt', archivo_entrada='datos/raw/direcciones_2026.txt', actualizado=False):
     directorio = os.path.dirname(archivo_salida)
     if directorio:
@@ -104,7 +96,77 @@ def datos_coords(archivo_salida='datos/raw/coords_2026.txt', archivo_entrada='da
 
     print("Coordenadas actualizadas correctamente")
 
+def datos_clima_asincrono(archivo_coords='datos/raw/coords_2026.txt', archivo_salida='datos/raw/clima_historico.json', inicio='2016-01-01', fin='2025-12-31'):
+    directorio = os.path.dirname(archivo_salida)
+    if directorio:
+        os.makedirs(directorio, exist_ok=True)
+
+    if os.path.exists(archivo_salida) and os.path.getsize(archivo_salida) > 0:
+        return
+
+    if not os.path.exists(archivo_coords):
+        print(f"El archivo de coordenadas {archivo_coords} no existe.")
+        return
+
+    destinos_coords = []
+    with open(archivo_coords, 'r', encoding='utf-8') as f:
+        for linea in f:
+            if ';' in linea:
+                nombre, coords = linea.strip().split(';')
+                lat, lon = coords.split(',')
+                destinos_coords.append((nombre, float(lat), float(lon)))
+
+    sem = asyncio.Semaphore(2)
+
+    async def descargar_un_destino(session, nombre, lat, lon):
+        async with sem:
+            url_archive = 'https://archive-api.open-meteo.com/v1/archive'
+            params = {
+                'latitude': str(lat),
+                'longitude': str(lon),
+                'start_date': inicio,
+                'end_date': fin,
+                'daily': 'temperature_2m_max,temperature_2m_min,precipitation_sum',
+                'timezone': 'America/Montevideo'
+            }
+            for intento in range(3):
+                async with session.get(url_archive, params=params) as resp:
+                    if resp.status == 200:
+                        data = await resp.json()
+                        return nombre, data.get('daily', {})
+                    elif resp.status in [429, 502, 503]:
+                        await asyncio.sleep(1.5)
+                    else:
+                        print(f"Error {resp.status} al descargar clima para {nombre}")
+                        break
+                await asyncio.sleep(0.3)
+            return nombre, {}
+
+    async def descargar_todos():
+        async with aiohttp.ClientSession() as session:
+            tareas = [descargar_un_destino(session, n, lat, lon) for n, lat, lon in destinos_coords]
+            return await asyncio.gather(*tareas)
+
+    print("Descargando datos climáticos de forma asíncrona...")
+    tiempo_inicio = time.time()
+    resultados_lista = asyncio.run(descargar_todos())
+    resultados = {nombre: datos for nombre, datos in resultados_lista if datos}
+    tiempo_total = time.time() - tiempo_inicio
+    print(f"Descarga asíncrona completada en {tiempo_total:.2f} segundos.")
+
+    with open(archivo_salida, 'w', encoding='utf-8') as f:
+        json.dump(resultados, f, ensure_ascii=False, indent=2)
+
+def datos_clima():
+    datos_clima_asincrono()
+
+def lugares_de_interes():
+    # en el archivo reclectar_foursquare.py
+    return
+
+
 if __name__ == "__main__":
     datos_feriados()
     datos_destinos()
     datos_coords()
+    datos_clima()
