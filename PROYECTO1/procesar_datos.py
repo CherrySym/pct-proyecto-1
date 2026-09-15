@@ -46,27 +46,27 @@ def encontrar_finde_largo(archivo_entrada=None, archivo_salida=None):
 
     for fecha in lista_feriados:
         dias_finde = []
-        
+
         if fecha.weekday() == 0:  # Si es Lunes
             sabado = fecha - datetime.timedelta(days=2)
             domingo = fecha - datetime.timedelta(days=1)
             martes = fecha + datetime.timedelta(days=1)
-            
+
             if martes in lista_feriados:
                 dias_finde = [sabado, domingo, fecha, martes]
             else:
                 dias_finde = [sabado, domingo, fecha]
-                
+
         elif fecha.weekday() == 4:  # Si es Viernes
             jueves = fecha - datetime.timedelta(days=1)
             sabado = fecha + datetime.timedelta(days=1)
             domingo = fecha + datetime.timedelta(days=2)
-            
+
             if jueves in lista_feriados:
                 dias_finde = [jueves, fecha, sabado, domingo]
             else:
                 dias_finde = [fecha, sabado, domingo]
-        
+
         if dias_finde and dias_finde not in findes_largos:
             findes_largos.append(dias_finde)
     with open(archivo_salida, 'w', encoding='utf-8') as findelargo:
