@@ -27,36 +27,27 @@ def filtrar_datos_clima(archivo_findes=None, archivo_clima=None, archivo_salida=
         os.makedirs(directorio, exist_ok=True)
 
     if not os.path.exists(archivo_findes) or os.path.getsize(archivo_findes) == 0:
-        print(f"El archivo de entrada {archivo_findes} no existe o está vacío.")
         return
     if not os.path.exists(archivo_clima) or os.path.getsize(archivo_clima) == 0:
-        print(f"El archivo de entrada {archivo_clima} no existe o está vacío.")
         return
     if os.path.exists(archivo_salida) and os.path.getsize(archivo_salida) > 0:
-        print(f"El archivo {archivo_salida} ya existe.")
         return
 
-    # cada línea del archivo es un finde largo, con sus fechas separadas por coma
     with open(archivo_findes, 'r', encoding='utf-8') as f:
         findes_largos = [
             [datetime.datetime.strptime(fecha.strip(), "%Y-%m-%d").date() for fecha in linea.split(',')]
             for linea in f if linea.strip()
         ]
 
-    # clima_historico viene como {lugar: {"time": [...], "temperature_2m_max": [...], "precipitation_sum": [...]}}
-    # con las tres listas alineadas por índice (mismo día en la misma posición de cada lista)
     with open(archivo_clima, 'r', encoding='utf-8') as f:
         clima_historico = json.load(f)
 
-    # las fechas del finde son de 2026, pero el histórico va de 2016 a 2025, así que no podemos
-    # buscar por fecha exacta. En cambio, indexamos el histórico de cada lugar por "mes-día"
-    # (ignorando el año) para poder buscar, por ejemplo, todos los "02-14" sin importar el año.
     indice_por_lugar = {}
     for lugar, datos in clima_historico.items():
         indice_dia = {}
         for fecha_str, temp_max, lluvia in zip(datos['time'], datos['temperature_2m_max'], datos['precipitation_sum']):
             fecha = datetime.datetime.strptime(fecha_str, "%Y-%m-%d").date()
-            dia_mes = fecha.strftime("%m-%d")
+            dia_mes = fecha.strftime("%m-%d") #buscamos por dia y mes, ignorando el año, es decir, devolvemos todos los 02-14, 02-15, etc.
             indice_dia.setdefault(dia_mes, []).append({
                 "anio": fecha.year,
                 "temp_max": temp_max,
@@ -94,11 +85,7 @@ def filtrar_datos_clima(archivo_findes=None, archivo_clima=None, archivo_salida=
         json.dump(clima_findes_largos, f, ensure_ascii=False, indent=2)
 
     print(f"Se procesó el clima histórico de {len(clima_findes_largos)} findes largos y se guardó en {archivo_salida}")
-def filtrar_lugares_de_interes():
-    """
-    no me entere que trae foursquare
-    """
-    return
+
 
 def encontrar_finde_largo(archivo_entrada=None, archivo_salida=None):
     _dir = os.path.dirname(os.path.abspath(__file__))
