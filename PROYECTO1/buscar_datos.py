@@ -13,7 +13,10 @@ APIclima = 'https://open-meteo.com'
 APIcoords = 'https://nominatim.openstreetmap.org/search'
 APIrandom = 'x'
 
-def datos_feriados(url=APIferiados, archivo_salida='datos/raw/feriados_2026.txt'):
+def datos_feriados(url=APIferiados, archivo_salida=None):
+    if archivo_salida is None:
+        archivo_salida = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'datos', 'raw', 'feriados_2026.txt')
+
     directorio = os.path.dirname(archivo_salida)
     if directorio:
         os.makedirs(directorio, exist_ok=True)
@@ -28,7 +31,10 @@ def datos_feriados(url=APIferiados, archivo_salida='datos/raw/feriados_2026.txt'
             for dia in dias:
                 feriados.write(dia + '\n')
 
-def datos_destinos(archivo_salida='datos/raw/direcciones_2026.txt'):
+def datos_destinos(archivo_salida=None):
+    if archivo_salida is None:
+        archivo_salida = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'datos', 'raw', 'direcciones_2026.txt')
+
     directorio = os.path.dirname(archivo_salida)
     if directorio:
         os.makedirs(directorio, exist_ok=True)
@@ -58,7 +64,13 @@ def datos_destinos(archivo_salida='datos/raw/direcciones_2026.txt'):
         for destino in destinos:
             f.write(destino + '\n')
 
-def datos_coords(archivo_salida='datos/raw/coords_2026.txt', archivo_entrada='datos/raw/direcciones_2026.txt', actualizado=False):
+def datos_coords(archivo_salida=None, archivo_entrada=None, actualizado=False):
+    _dir = os.path.dirname(os.path.abspath(__file__))
+    if archivo_salida is None:
+        archivo_salida = os.path.join(_dir, 'datos', 'raw', 'coords_2026.txt')
+    if archivo_entrada is None:
+        archivo_entrada = os.path.join(_dir, 'datos', 'raw', 'direcciones_2026.txt')
+
     directorio = os.path.dirname(archivo_salida)
     if directorio:
         os.makedirs(directorio, exist_ok=True)
@@ -96,7 +108,13 @@ def datos_coords(archivo_salida='datos/raw/coords_2026.txt', archivo_entrada='da
 
     print("Coordenadas actualizadas correctamente")
 
-def datos_clima_asincrono(archivo_coords='datos/raw/coords_2026.txt', archivo_salida='datos/raw/clima_historico.json', inicio='2016-01-01', fin='2025-12-31'):
+def datos_clima_asincrono(archivo_coords=None, archivo_salida=None, inicio='2016-01-01', fin='2025-12-31'):
+    _dir = os.path.dirname(os.path.abspath(__file__))
+    if archivo_coords is None:
+        archivo_coords = os.path.join(_dir, 'datos', 'raw', 'coords_2026.txt')
+    if archivo_salida is None:
+        archivo_salida = os.path.join(_dir, 'datos', 'raw', 'clima_historico.json')
+
     directorio = os.path.dirname(archivo_salida)
     if directorio:
         os.makedirs(directorio, exist_ok=True)
@@ -163,7 +181,6 @@ def datos_clima():
 def lugares_de_interes():
     # en el archivo reclectar_foursquare.py
     return
-
 
 if __name__ == "__main__":
     datos_feriados()
