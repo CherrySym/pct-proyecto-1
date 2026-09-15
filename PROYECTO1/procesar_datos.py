@@ -6,13 +6,27 @@ import os
 import datetime
 
 def filtrar_datos_clima():
+    """
+    leer las fechas de los findes de 'datos/procesados/findelargos_2026.txt'
+    leer el json clima historico 'datos/raw/
+    buscar cómo estuvo el clima esos mismos días exactos en los 10 años
+    extraer la temperatura máxima y la lluvia de esas dias supongo
+    guardar un nuevo archivo 'datos/procesados/clima_findes_largos.json'
+    """
 
     return
 def filtrar_lugares_de_interes():
-
+    """
+    no me entere que trae foursquare
+    """
     return
 
-def encontrar_finde_largo(archivo_entrada='datos/raw/feriados_2026.txt', archivo_salida='datos/procesados/findelargos_2026.txt'):
+def encontrar_finde_largo(archivo_entrada=None, archivo_salida=None):
+    _dir = os.path.dirname(os.path.abspath(__file__))
+    if archivo_entrada is None:
+        archivo_entrada = os.path.join(_dir, 'datos', 'raw', 'feriados_2026.txt')
+    if archivo_salida is None:
+        archivo_salida = os.path.join(_dir, 'datos', 'procesados', 'findelargos_2026.txt')
     directorio = os.path.dirname(archivo_salida)
     if directorio:
         os.makedirs(directorio, exist_ok=True)
