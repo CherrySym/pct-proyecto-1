@@ -1,0 +1,358 @@
+[
+  {
+    "nombre": "Cafe con sal",
+    "categorias": [
+      "Bistro"
+    ],
+    "direccion": "La Paloma Rocha"
+  },
+  {
+    "nombre": "Lo de Edinson",
+    "categorias": [
+      "Restaurant"
+    ],
+    "direccion": "Ceres (Juno), La Paloma Rocha"
+  },
+  {
+    "nombre": "La Balconada",
+    "categorias": [
+      "Beach"
+    ],
+    "direccion": "La Paloma Rocha"
+  },
+  {
+    "nombre": "Faro Santa María",
+    "categorias": [
+      "Lighthouse"
+    ],
+    "direccion": "Bahía La Paloma, La Paloma Rocha"
+  },
+  {
+    "nombre": "Heladería Popi",
+    "categorias": [
+      "Ice Cream Parlor"
+    ],
+    "direccion": "Av. Nicolás Solari, La Paloma Rocha"
+  },
+  {
+    "nombre": "Feria de los Artesanos",
+    "categorias": [
+      "Arts and Crafts Store"
+    ],
+    "direccion": "Av. Paloma, La Paloma Rocha"
+  },
+  {
+    "nombre": "La Folie",
+    "categorias": [
+      "Gastropub",
+      "Coffee Shop"
+    ],
+    "direccion": "Av. del Navío (Sagitario), 27001 La Paloma Rocha"
+  },
+  {
+    "nombre": "Fulana",
+    "categorias": [
+      "Gastropub"
+    ],
+    "direccion": "Av. Solari, La Paloma Rocha"
+  },
+  {
+    "nombre": "Playa Los Botes",
+    "categorias": [
+      "Beach"
+    ],
+    "direccion": "Av Las 3 Marias, La Paloma Rocha"
+  },
+  {
+    "nombre": "Arrecife / Cocina Típica Uruguaya",
+    "categorias": [
+      "Restaurant"
+    ],
+    "direccion": "La Paloma Rocha"
+  },
+  {
+    "nombre": "Heladería Tam-Barú",
+    "categorias": [
+      "Ice Cream Parlor"
+    ],
+    "direccion": "La Paloma Rocha"
+  },
+  {
+    "nombre": "Playa Del Faro",
+    "categorias": [
+      "Beach"
+    ],
+    "direccion": "Av del Faro, La Paloma Rocha"
+  },
+  {
+    "nombre": "Playa La Aguada",
+    "categorias": [
+      "Beach",
+      "Surf Spot"
+    ],
+    "direccion": "La Aguada Rocha"
+  },
+  {
+    "nombre": "Naranja Lima",
+    "categorias": [
+      "Restaurant"
+    ],
+    "direccion": "Av. Del Navio Calle 14, 27001 La Paloma Rocha"
+  },
+  {
+    "nombre": "Bahia Grande",
+    "categorias": [
+      "Beach"
+    ],
+    "direccion": "27001 La Paloma Rocha"
+  },
+  {
+    "nombre": "Punto Sur",
+    "categorias": [
+      "Restaurant"
+    ],
+    "direccion": "Centauro (Escorpio), 27001 La Paloma Rocha"
+  },
+  {
+    "nombre": "Playa Anaconda",
+    "categorias": [
+      "Beach",
+      "Surf Spot"
+    ],
+    "direccion": "La Paloma Rocha"
+  },
+  {
+    "nombre": "Panadería Mi Paloma",
+    "categorias": [
+      "Bakery"
+    ],
+    "direccion": "La Paloma Rocha"
+  },
+  {
+    "nombre": "Playa El Cabito",
+    "categorias": [
+      "Beach"
+    ],
+    "direccion": "Av. Sagitario (Las Tres Marías), La Paloma Rocha"
+  },
+  {
+    "nombre": "Upalala",
+    "categorias": [
+      "Gastropub"
+    ],
+    "direccion": "La Paloma Rocha"
+  },
+  {
+    "nombre": "Playa La Serena",
+    "categorias": [
+      "Beach"
+    ],
+    "direccion": "La Paloma Rocha"
+  },
+  {
+    "nombre": "Los Molles",
+    "categorias": [
+      "Grocery Store"
+    ],
+    "direccion": "Aries (Delfín), 27001 La Paloma Rocha"
+  },
+  {
+    "nombre": "Orishas",
+    "categorias": [
+      "Beer Garden",
+      "Pizzeria"
+    ],
+    "direccion": "Avenida Solari (De la Iglesia), 27001 La Paloma Rocha"
+  },
+  {
+    "nombre": "Peteco Resto Pub",
+    "categorias": [
+      "Sports Bar"
+    ],
+    "direccion": "La Paloma Rocha"
+  },
+  {
+    "nombre": "La Marea",
+    "categorias": [
+      "South American Restaurant"
+    ],
+    "direccion": "La Paloma Rocha"
+  },
+  {
+    "nombre": "Babylon",
+    "categorias": [
+      "Beer Garden"
+    ],
+    "direccion": "Av. Solari (Av. del Faro), 27001 La Paloma Rocha"
+  },
+  {
+    "nombre": "Bauru Gigante",
+    "categorias": [
+      "Fast Food Restaurant"
+    ],
+    "direccion": "Ruta 15 (Av. La Paloma), La Paloma Rocha"
+  },
+  {
+    "nombre": "La aguada",
+    "categorias": [
+      "Convenience Store"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "El Dorado",
+    "categorias": [
+      "Grocery Store"
+    ],
+    "direccion": "Av. Solari (esq. Av. Sirio), La Paloma Rocha"
+  },
+  {
+    "nombre": "Rocco",
+    "categorias": [
+      "Latin American Restaurant"
+    ],
+    "direccion": "Playa La Aguada, La Aguada Rocha"
+  },
+  {
+    "nombre": "Cantero central Avenida Solari",
+    "categorias": [
+      "Plaza"
+    ],
+    "direccion": "La Paloma Rocha"
+  },
+  {
+    "nombre": "Arrecife",
+    "categorias": [
+      "Restaurant",
+      "BBQ Joint"
+    ],
+    "direccion": "Av. del Navío (De la Virgen), 27001 La Paloma Rocha"
+  },
+  {
+    "nombre": "Supermercado El Dorado",
+    "categorias": [
+      "Convenience Store",
+      "Grocery Store"
+    ],
+    "direccion": "Av. Solari (Antares), 27001 La Paloma Rocha"
+  },
+  {
+    "nombre": "Bahia Chica",
+    "categorias": [
+      "Beach"
+    ],
+    "direccion": "La Paloma Rocha"
+  },
+  {
+    "nombre": "Churreria DanYis",
+    "categorias": [
+      "Bakery"
+    ],
+    "direccion": "La Paloma Rocha"
+  },
+  {
+    "nombre": "Centro Cultural La Paloma",
+    "categorias": [
+      "Arts and Entertainment"
+    ],
+    "direccion": "Ruta 15, La Paloma Rocha"
+  },
+  {
+    "nombre": "Museo de La Paloma",
+    "categorias": [
+      "Museum"
+    ],
+    "direccion": "Rambla Puerto de La Paloma, 27001 La Paloma Rocha"
+  },
+  {
+    "nombre": "Panaderia",
+    "categorias": [
+      "Bakery"
+    ],
+    "direccion": "La Paloma Rocha"
+  },
+  {
+    "nombre": "Puerto La Paloma",
+    "categorias": [
+      "Harbor or Marina"
+    ],
+    "direccion": "La Paloma Rocha"
+  },
+  {
+    "nombre": "Complejo Varadero",
+    "categorias": [
+      "Housing Development"
+    ],
+    "direccion": "La Paloma Rocha"
+  },
+  {
+    "nombre": "Costa Azul",
+    "categorias": [
+      "Beach"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Sotavento Beach Restaurant Bar",
+    "categorias": [
+      "Restaurant"
+    ],
+    "direccion": "Las Tres Marias (Foque), La Paloma Rocha"
+  },
+  {
+    "nombre": "Arachania",
+    "categorias": [
+      "Beach"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "La Cantina Mexicana",
+    "categorias": [
+      "Mexican Restaurant"
+    ],
+    "direccion": "Botavara (Next to Varadero Hotel), 27001 La Paloma Rocha"
+  },
+  {
+    "nombre": "Playa Del Barco",
+    "categorias": [
+      "Beach"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Antoniópolis",
+    "categorias": [
+      "Beach"
+    ],
+    "direccion": "La Paloma Rocha"
+  },
+  {
+    "nombre": "Petisco",
+    "categorias": [
+      "Gastropub"
+    ],
+    "direccion": "Principal de la Pedrera, La Pedrera Rocha"
+  },
+  {
+    "nombre": "INTI Bar",
+    "categorias": [
+      "American Restaurant"
+    ],
+    "direccion": "Calle Principal (Pitanga), La Pedrera Rocha"
+  },
+  {
+    "nombre": "antonia",
+    "categorias": [
+      "Restaurant"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Punta Rubia",
+    "categorias": [
+      "Beach"
+    ],
+    "direccion": "Punta Rubia"
+  }
+]

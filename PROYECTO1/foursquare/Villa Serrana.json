@@ -1,0 +1,65 @@
+[
+  {
+    "nombre": "Ventorrillo de la Buena Vista",
+    "categorias": [
+      "Restaurant"
+    ],
+    "direccion": "Camino Vilamajo, Villa Serrana Lavalleja"
+  },
+  {
+    "nombre": "Villa Serrana",
+    "categorias": [
+      "Park"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Parador Del Lago",
+    "categorias": [
+      "South American Restaurant"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Reserva Stewart Vargas",
+    "categorias": [
+      "Field"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "El Baño De La India",
+    "categorias": [
+      "Other Great Outdoors"
+    ],
+    "direccion": "Minas, Minas Lavalleja"
+  },
+  {
+    "nombre": "Parador Parque Del Penitente",
+    "categorias": [
+      "Restaurant"
+    ],
+    "direccion": "Lavalleja"
+  },
+  {
+    "nombre": "Salto Del Penitente",
+    "categorias": [
+      "Scenic Lookout"
+    ],
+    "direccion": "Villa Serrana Lavalleja"
+  },
+  {
+    "nombre": "Estación Penitente",
+    "categorias": [
+      "Restaurant"
+    ],
+    "direccion": "Camino Al Salto Del Penitente, Sección 01 Lavalleja"
+  },
+  {
+    "nombre": "Pusat Snooker Salmah",
+    "categorias": [
+      "Betting Shop"
+    ],
+    "direccion": ""
+  }
+]

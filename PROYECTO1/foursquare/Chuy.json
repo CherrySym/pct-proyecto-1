@@ -1,0 +1,357 @@
+[
+  {
+    "nombre": "Six Free Shop",
+    "categorias": [
+      "Department Store"
+    ],
+    "direccion": "Chuy Rio Grande do Sul"
+  },
+  {
+    "nombre": "Duty Free Americas DFA",
+    "categorias": [
+      "Duty-free Store"
+    ],
+    "direccion": "Avda Brasil 267, Chuy Rocha"
+  },
+  {
+    "nombre": "Miravos",
+    "categorias": [
+      "Latin American Restaurant"
+    ],
+    "direccion": "Río Grande del Sur"
+  },
+  {
+    "nombre": "Don Quijote",
+    "categorias": [
+      "BBQ Joint"
+    ],
+    "direccion": "Río Grande del Sur"
+  },
+  {
+    "nombre": "Spetus",
+    "categorias": [
+      "BBQ Joint"
+    ],
+    "direccion": "Rio Grande do Sul"
+  },
+  {
+    "nombre": "Neutral Duty Free",
+    "categorias": [
+      "Duty-free Store"
+    ],
+    "direccion": "Av. Brasil 449 (Tito Fernández), 27100 Chuy Rocha"
+  },
+  {
+    "nombre": "Los Leños",
+    "categorias": [
+      "BBQ Joint",
+      "Pizzeria"
+    ],
+    "direccion": "Gral. Artigas 113, 27100 Chuy Rocha"
+  },
+  {
+    "nombre": "Gianinn",
+    "categorias": [
+      "Bakery",
+      "Cupcake Shop"
+    ],
+    "direccion": "Río Grande del Sur"
+  },
+  {
+    "nombre": "Laser Free Shop",
+    "categorias": [
+      "Department Store"
+    ],
+    "direccion": "Río Grande del Sur"
+  },
+  {
+    "nombre": "Il Forte",
+    "categorias": [
+      "Pizzeria"
+    ],
+    "direccion": "Av. Brasil 947-1023, Chuy, Rocha, Uruguay, RS"
+  },
+  {
+    "nombre": "Natural Free Shop",
+    "categorias": [
+      "Department Store"
+    ],
+    "direccion": "Av. Brasil, 456, Chuy Rocha"
+  },
+  {
+    "nombre": "The Place Free Shop",
+    "categorias": [
+      "Department Store",
+      "Miscellaneous Store"
+    ],
+    "direccion": "Avenida Uruguay, 425, Chuy, RS"
+  },
+  {
+    "nombre": "Saint Honore",
+    "categorias": [
+      "Cosmetics Store"
+    ],
+    "direccion": "Avda. Brasil, Río Grande del Sur"
+  },
+  {
+    "nombre": "Fusion Resto Bar",
+    "categorias": [
+      "Gastropub"
+    ],
+    "direccion": "Av. Brasil, Chuy Rocha"
+  },
+  {
+    "nombre": "Los Leños",
+    "categorias": [
+      "BBQ Joint"
+    ],
+    "direccion": "Av. Uruguai, 945, Chuí, RS"
+  },
+  {
+    "nombre": "Dell Pato Restaurante",
+    "categorias": [
+      "Gastropub"
+    ],
+    "direccion": "Rio Grande do Sul"
+  },
+  {
+    "nombre": "Mar Del Plata Lancheria E Espeto Corrido",
+    "categorias": [
+      "Restaurant"
+    ],
+    "direccion": "Chuí, RS"
+  },
+  {
+    "nombre": "Dubai Free Shop",
+    "categorias": [
+      "Department Store"
+    ],
+    "direccion": "Avenida Brasil, Chuy, RS"
+  },
+  {
+    "nombre": "Makro",
+    "categorias": [
+      "Supermarket"
+    ],
+    "direccion": "Chuí, RS, 96255-000"
+  },
+  {
+    "nombre": "Tango",
+    "categorias": [
+      "BBQ Joint"
+    ],
+    "direccion": "Chuy Rocha"
+  },
+  {
+    "nombre": "Lancheria Mariela",
+    "categorias": [
+      "Fast Food Restaurant"
+    ],
+    "direccion": "Rua Peru, 1392, Chuí, RS"
+  },
+  {
+    "nombre": "Sabroso's Lanches",
+    "categorias": [
+      "Burger Joint"
+    ],
+    "direccion": "Chuí, RS"
+  },
+  {
+    "nombre": "Restaurante Hotel Plaza",
+    "categorias": [
+      "South American Restaurant"
+    ],
+    "direccion": "Chuy Rocha"
+  },
+  {
+    "nombre": "Center Shop",
+    "categorias": [
+      "Miscellaneous Store"
+    ],
+    "direccion": "Av. Brasil, Chuy Rocha"
+  },
+  {
+    "nombre": "Muni market",
+    "categorias": [
+      "Market"
+    ],
+    "direccion": "Rio Grande do Sul"
+  },
+  {
+    "nombre": "Angra Free Shop",
+    "categorias": [
+      "Department Store"
+    ],
+    "direccion": "Chuy Rocha"
+  },
+  {
+    "nombre": "Portal Free Shop",
+    "categorias": [
+      "Miscellaneous Store"
+    ],
+    "direccion": "Av. Brasil, Chuy Rocha"
+  },
+  {
+    "nombre": "Alfa Free Shop",
+    "categorias": [
+      "Shoe Store"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "La Queseria",
+    "categorias": [
+      "Cheese Store"
+    ],
+    "direccion": "Av. Brasil, Chuí Uruguay"
+  },
+  {
+    "nombre": "Grido Helado",
+    "categorias": [
+      "Ice Cream Parlor"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Churrascaría La Fortaleza",
+    "categorias": [
+      "Restaurant"
+    ],
+    "direccion": "Venezuela 64, Chui, RS"
+  },
+  {
+    "nombre": "Indian Emporium",
+    "categorias": [
+      "Women's Store"
+    ],
+    "direccion": "Río Grande del Sur"
+  },
+  {
+    "nombre": "Pizzeria Fusion",
+    "categorias": [
+      "Pizzeria"
+    ],
+    "direccion": "Rio Grande do Sul"
+  },
+  {
+    "nombre": "Petiskao Lanches",
+    "categorias": [
+      "Burger Joint"
+    ],
+    "direccion": "Chuí, RS"
+  },
+  {
+    "nombre": "Tango Fast Food",
+    "categorias": [
+      "Burger Joint"
+    ],
+    "direccion": "Chuí, RS"
+  },
+  {
+    "nombre": "Tagobr ☕️",
+    "categorias": [
+      "Coffee Shop"
+    ],
+    "direccion": "Rio Grande do Sul"
+  },
+  {
+    "nombre": "Parque Acuático Barra Del Chuy",
+    "categorias": [
+      "Water Park"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "La Parrilha",
+    "categorias": [
+      "Steakhouse"
+    ],
+    "direccion": "Rio Grande do Sul"
+  },
+  {
+    "nombre": "Supermercado Londres",
+    "categorias": [
+      "Grocery Store"
+    ],
+    "direccion": "Chuy Rocha"
+  },
+  {
+    "nombre": "forte são miguel",
+    "categorias": [
+      "Amusement Park"
+    ],
+    "direccion": "Rio Grande do Sul"
+  },
+  {
+    "nombre": "Aduana Brasileira - Chuí",
+    "categorias": [
+      "Government Building"
+    ],
+    "direccion": "Rio Grande do Sul"
+  },
+  {
+    "nombre": "Fuerte San Miguel",
+    "categorias": [
+      "Historic and Protected Site"
+    ],
+    "direccion": "Rocha"
+  },
+  {
+    "nombre": "Barra del Chuy",
+    "categorias": [
+      "Beach",
+      "Other Great Outdoors"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Tatanka",
+    "categorias": [
+      "Night Club"
+    ],
+    "direccion": "Av. Uruguay, Barra del chuy Rocha"
+  },
+  {
+    "nombre": "Barra do Chuí",
+    "categorias": [
+      "Beach",
+      "Lighthouse"
+    ],
+    "direccion": "do Farol St., Chuí, RS"
+  },
+  {
+    "nombre": "Comprexo Eólico - Campos Neutrais - Santa vitoria/Chui",
+    "categorias": [
+      "Other Great Outdoors"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Casinos del Estado Chuy",
+    "categorias": [
+      "Casino"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Complejo Turistico Chuy",
+    "categorias": [
+      "Campground"
+    ],
+    "direccion": "Barra Del Chuy, Chuy Rocha"
+  },
+  {
+    "nombre": "Farol da Barra do Chui",
+    "categorias": [
+      "Lighthouse"
+    ],
+    "direccion": "Rio Grande, RS"
+  },
+  {
+    "nombre": "Wagner II",
+    "categorias": [
+      "Convenience Store"
+    ],
+    "direccion": "Parada 1, Barra del chuy Rocha"
+  }
+]

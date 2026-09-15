@@ -1,0 +1,369 @@
+[
+  {
+    "nombre": "Praça Artigas",
+    "categorias": [
+      "Plaza"
+    ],
+    "direccion": "Sarandi (Monseñor Jacinto Vera), Rivera Rivera"
+  },
+  {
+    "nombre": "Lo de Beto",
+    "categorias": [
+      "BBQ Joint"
+    ],
+    "direccion": "Faustino Carambula (Agraciada), Rivera Rivera"
+  },
+  {
+    "nombre": "Galpón Parrillada",
+    "categorias": [
+      "BBQ Joint",
+      "South American Restaurant",
+      "Steakhouse"
+    ],
+    "direccion": "Ituizango 351 (Ceballos), 40000 Rivera Rivera"
+  },
+  {
+    "nombre": "Barão Free Shop",
+    "categorias": [
+      "Department Store",
+      "Miscellaneous Store",
+      "Electronics Store"
+    ],
+    "direccion": "R. Paysandú, 1071 (R. Agraciada), Rivera Rivera"
+  },
+  {
+    "nombre": "El Borrego",
+    "categorias": [
+      "Restaurant",
+      "Fast Food Restaurant"
+    ],
+    "direccion": "Sarandi 398 (Paysandu), Uruguai Rivera Rivera"
+  },
+  {
+    "nombre": "La Tuna",
+    "categorias": [
+      "Breakfast Spot"
+    ],
+    "direccion": "Figueroa 1070 (Sarandi), 40000 Rivera Rivera"
+  },
+  {
+    "nombre": "Le Carroussel",
+    "categorias": [
+      "Wine Bar"
+    ],
+    "direccion": "Rivera Rivera"
+  },
+  {
+    "nombre": "Ripan",
+    "categorias": [
+      "Bakery"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Siñeriz Free Shop",
+    "categorias": [
+      "Department Store",
+      "Shopping Mall"
+    ],
+    "direccion": "Av. Sarandí, 338 (33 Orientales), Rivera Rivera"
+  },
+  {
+    "nombre": "Fragola",
+    "categorias": [
+      "Ice Cream Parlor"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Confitería City",
+    "categorias": [
+      "Café",
+      "Bagel Shop",
+      "Restaurant"
+    ],
+    "direccion": "Av. Sarandí, 422, Rivera Rivera"
+  },
+  {
+    "nombre": "Cocodrilo Restopub",
+    "categorias": [
+      "Beer Garden"
+    ],
+    "direccion": "Av Sarandi, 661, Rivera Rivera"
+  },
+  {
+    "nombre": "Costa Café & Bistrô",
+    "categorias": [
+      "Coffee Shop"
+    ],
+    "direccion": "Av. Tamandaré, 1759, Santana do Livramento, RS, 97574-210"
+  },
+  {
+    "nombre": "Duty Free Americas",
+    "categorias": [
+      "Miscellaneous Store",
+      "Electronics Store",
+      "Board Store"
+    ],
+    "direccion": "Avda. Sarandí 475, Rivera Rivera"
+  },
+  {
+    "nombre": "Trailer Do Julio",
+    "categorias": [
+      "Hot Dog Joint"
+    ],
+    "direccion": "Carlos Reyles, Rivera Rivera"
+  },
+  {
+    "nombre": "Neutral",
+    "categorias": [
+      "Department Store"
+    ],
+    "direccion": "Av. Sarandí 371, Rivera Rivera"
+  },
+  {
+    "nombre": "Parrillada La Picaña",
+    "categorias": [
+      "Steakhouse",
+      "BBQ Joint",
+      "South American Restaurant"
+    ],
+    "direccion": "Av. Sarandí 725, Rivera Rivera"
+  },
+  {
+    "nombre": "Siñeriz Shopping",
+    "categorias": [
+      "Shopping Mall"
+    ],
+    "direccion": "Sepe 51, Rivera Rivera"
+  },
+  {
+    "nombre": "McQueen's",
+    "categorias": [
+      "Food Truck",
+      "Hot Dog Joint",
+      "Burger Joint"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Daniel Cassin Rivera",
+    "categorias": [
+      "Retail"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Punto Bar",
+    "categorias": [
+      "Bar"
+    ],
+    "direccion": "Figueroa"
+  },
+  {
+    "nombre": "La Perdiz",
+    "categorias": [
+      "Argentinian Restaurant"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Solar Dom Pedro",
+    "categorias": [
+      "Brazilian Restaurant"
+    ],
+    "direccion": "Santana do Livramento, RS"
+  },
+  {
+    "nombre": "Vieja Estación",
+    "categorias": [
+      "Pizzeria"
+    ],
+    "direccion": "Avenida Brasil 884 (Pantaleón Quesada), 40000 Rivera Rivera"
+  },
+  {
+    "nombre": "Academia MP Fit",
+    "categorias": [
+      "Gymnastics Center"
+    ],
+    "direccion": "Av. Almirante Tamandaré, 1928, Santana Do Livramento, Rio Grandre Do Sul"
+  },
+  {
+    "nombre": "Las Mil Y Una",
+    "categorias": [
+      "Pizzeria"
+    ],
+    "direccion": "Sarandí 692"
+  },
+  {
+    "nombre": "Palácio do Comércio",
+    "categorias": [
+      "Restaurant"
+    ],
+    "direccion": "Santana do Livramento, RS"
+  },
+  {
+    "nombre": "Plaza Flores",
+    "categorias": [
+      "Plaza"
+    ],
+    "direccion": "Sarandi (Carlos Reyles), 40000 Rivera Rivera"
+  },
+  {
+    "nombre": "La Perdiz - Siñeriz",
+    "categorias": [
+      "Steakhouse"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Heladeria Martínez",
+    "categorias": [
+      "Ice Cream Parlor"
+    ],
+    "direccion": "Agraciada (Lavalleja), 40000 Rivera Rivera"
+  },
+  {
+    "nombre": "Don Rene Parrilla",
+    "categorias": [
+      "South American Restaurant",
+      "Southern Food Restaurant"
+    ],
+    "direccion": "Rivera Rivera"
+  },
+  {
+    "nombre": "Solar Dom Pedro Armour",
+    "categorias": [
+      "Arts and Entertainment"
+    ],
+    "direccion": "Rua Jose Fernandez Mendes, 161, Santana do Livramento, RS"
+  },
+  {
+    "nombre": "Punta Ballena Café",
+    "categorias": [
+      "Coffee Shop"
+    ],
+    "direccion": "Siñeriz Shopping, Rivera Rivera"
+  },
+  {
+    "nombre": "Granadas's",
+    "categorias": [
+      "Snack Place"
+    ],
+    "direccion": "Santana do Livramento, RS"
+  },
+  {
+    "nombre": "Pampa Grill",
+    "categorias": [
+      "Brazilian Restaurant",
+      "American Restaurant"
+    ],
+    "direccion": "R. Uruguai, 1452, Santana do Livramento, RS, 97574-220"
+  },
+  {
+    "nombre": "La Leña",
+    "categorias": [
+      "BBQ Joint",
+      "Restaurant"
+    ],
+    "direccion": "Av. Sarandí 365, 40000 Rivera Rivera"
+  },
+  {
+    "nombre": "Zebra Free Shop",
+    "categorias": [
+      "Miscellaneous Store"
+    ],
+    "direccion": "Av. Sarandí 455 (Figueroa), 40000 Rivera Rivera"
+  },
+  {
+    "nombre": "Gaúcho Restaurante",
+    "categorias": [
+      "Latin American Restaurant"
+    ],
+    "direccion": "Casino Rivera, Rivera Rivera"
+  },
+  {
+    "nombre": "Neutral Duty Free Shop",
+    "categorias": [
+      "Department Store"
+    ],
+    "direccion": "33 Orientales, 1224, Rivera Rivera"
+  },
+  {
+    "nombre": "Mac Burger's",
+    "categorias": [
+      "Burger Joint"
+    ],
+    "direccion": "Av Daltro Filho, Santana do Livramento, RS"
+  },
+  {
+    "nombre": "Praça Internacional",
+    "categorias": [
+      "Plaza"
+    ],
+    "direccion": "Av Tamandaré, 2167 - Centro, Santana do Livramento, RS"
+  },
+  {
+    "nombre": "Indian Emporium",
+    "categorias": [
+      "Department Store"
+    ],
+    "direccion": "Rivera Rivera"
+  },
+  {
+    "nombre": "Gardel Parrillada y Pasta",
+    "categorias": [
+      "South American Restaurant"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Padaria La Familia",
+    "categorias": [
+      "Café"
+    ],
+    "direccion": "Rivera Rivera"
+  },
+  {
+    "nombre": "Pizzeria La Leña",
+    "categorias": [
+      "Pizzeria"
+    ],
+    "direccion": "Siñeriz Shoping, 40000 Rivera Rivera"
+  },
+  {
+    "nombre": "BR",
+    "categorias": [
+      "Arts and Entertainment"
+    ],
+    "direccion": "João Goulart, Santana do Livramento, RS"
+  },
+  {
+    "nombre": "Gaucho",
+    "categorias": [
+      "South American Restaurant"
+    ],
+    "direccion": "Casino Rivera, Rivera Rivera"
+  },
+  {
+    "nombre": "La Buena Pizza",
+    "categorias": [
+      "Pizzeria"
+    ],
+    "direccion": "Santana do Livramento, RS"
+  },
+  {
+    "nombre": "Cacau Show",
+    "categorias": [
+      "Chocolate Store"
+    ],
+    "direccion": "Rua dos Andradas 369 (Canabarro), Santana do Livramento, RS, 97573-001"
+  },
+  {
+    "nombre": "Pampa Beer",
+    "categorias": [
+      "Dive Bar"
+    ],
+    "direccion": "Santana do Livramento, RS"
+  }
+]

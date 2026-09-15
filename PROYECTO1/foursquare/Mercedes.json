@@ -1,0 +1,190 @@
+[
+  {
+    "nombre": "Martiniano",
+    "categorias": [
+      "Bar"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Príncipes del Sur",
+    "categorias": [
+      "Snack Place"
+    ],
+    "direccion": "Eusebio Gimenez (jose Gervasio Artigas), 75000 Mercedes Soriano"
+  },
+  {
+    "nombre": "Ruta 2",
+    "categorias": [
+      "Hiking Trail"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Club De Remeros De Mercedes",
+    "categorias": [
+      "Diner"
+    ],
+    "direccion": "Mercedes Soriano"
+  },
+  {
+    "nombre": "Catedral Mercedes",
+    "categorias": [
+      "Church"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Don Peperone",
+    "categorias": [
+      "BBQ Joint"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Plaza Independencia",
+    "categorias": [],
+    "direccion": ""
+  },
+  {
+    "nombre": "Freddo",
+    "categorias": [],
+    "direccion": "Artigas, Mercedes Soriano"
+  },
+  {
+    "nombre": "La Vaca",
+    "categorias": [
+      "BBQ Joint"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Beep Bar",
+    "categorias": [
+      "Pub"
+    ],
+    "direccion": "Mercedes Soriano"
+  },
+  {
+    "nombre": "Topo Gigio",
+    "categorias": [
+      "Ice Cream Parlor"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "La Churrasquera",
+    "categorias": [
+      "BBQ Joint"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Ta-Ta",
+    "categorias": [
+      "Market"
+    ],
+    "direccion": "Artigas (Rodo)"
+  },
+  {
+    "nombre": "Potenza Resto",
+    "categorias": [
+      "Gastropub"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Manzana 20",
+    "categorias": [
+      "Arts and Entertainment"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Los Arrayanes",
+    "categorias": [
+      "Housing Development"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Río Negro",
+    "categorias": [
+      "River"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Barrio 33",
+    "categorias": [
+      "Neighborhood"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Mercedes Soriano Uruguay",
+    "categorias": [],
+    "direccion": "Víctor Haedo (222), Mercedes Soriano"
+  },
+  {
+    "nombre": "Castillo Mauá",
+    "categorias": [
+      "History Museum"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Polideportivo IMS",
+    "categorias": [
+      "Race Track"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Laguna de los Negros",
+    "categorias": [
+      "River"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "El Copihue Estancia Turística",
+    "categorias": [
+      "Field"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "En el medio del campo",
+    "categorias": [
+      "Field"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "Estancia Ninette",
+    "categorias": [
+      "Farm"
+    ],
+    "direccion": "Río Negro"
+  },
+  {
+    "nombre": "Lo de cari",
+    "categorias": [
+      "Field"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "La Vibora",
+    "categorias": [],
+    "direccion": ""
+  },
+  {
+    "nombre": "Vivero Montes Del Plata",
+    "categorias": [
+      "Field"
+    ],
+    "direccion": ""
+  }
+]

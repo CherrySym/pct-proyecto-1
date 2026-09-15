@@ -1,88 +1,58 @@
 [
   {
-    "nombre": "Hey chopp",
+    "nombre": "La Cibeles",
     "categorias": [
-      "Bar",
-      "Brewery"
+      "Empanada Restaurant",
+      "Latin American Restaurant"
     ],
-    "direccion": "Paullier (Rivera), Montevideo Montevideo"
+    "direccion": "San Jose (Carlos Quijano), Montevideo Montevideo"
   },
   {
-    "nombre": "Mercado Ferrando",
+    "nombre": "Ashot Shawarma",
     "categorias": [
-      "Food Court",
-      "Market"
+      "Kebab Restaurant",
+      "Falafel Restaurant"
     ],
-    "direccion": "Chana 2120 (Joaquín de Salterain), 11200 Montevideo Montevideo"
+    "direccion": "Zelmar Michelini 1295, 11100 Montevideo Montevideo"
   },
   {
-    "nombre": "Escarmuza Librería y Café",
+    "nombre": "Pacharán",
     "categorias": [
-      "Bookstore",
-      "Café",
-      "Coffee Shop"
+      "Spanish Restaurant",
+      "Seafood Restaurant"
     ],
-    "direccion": "Pablo de María 1185 (Canelones), Montevideo Montevideo"
+    "direccion": "San José 1168, Montevideo Montevideo"
   },
   {
-    "nombre": "SushiTrue",
+    "nombre": "Auditorio Nacional del Sodre Dra. Adela Reta",
     "categorias": [
-      "Sushi Restaurant",
-      "Japanese Restaurant"
+      "Concert Hall",
+      "Performing Arts Venue",
+      "Theater"
     ],
-    "direccion": "Obligado 1076 (Rufino Bauzá), Montevideo Montevideo"
+    "direccion": "Andes (Mercedes), 11100 Montevideo Montevideo"
   },
   {
-    "nombre": "Tandory",
+    "nombre": "Sala Zitarrosa",
     "categorias": [
-      "Restaurant"
+      "Music Venue"
     ],
-    "direccion": "Ramon Masini 1130 (Libertad), 11300 Montevideo Montevideo"
+    "direccion": "Av. 18 de Julio 1012 (e/ Río Negro y Julio Herrera y Obes), 11100 Montevideo Montevideo"
   },
   {
-    "nombre": "El Mingus",
+    "nombre": "Candy Bar Palermo",
     "categorias": [
-      "Bar",
-      "Restaurant"
+      "Cocktail Bar",
+      "Gastropub"
     ],
-    "direccion": "San Salvador 1952 (Jackson), 11200 Montevideo Montevideo"
+    "direccion": "Durazno 1402 (Santiago De Chile), 11200 Palermo Montevideo"
   },
   {
-    "nombre": "Parque Rodó",
+    "nombre": "Plaza Independencia",
     "categorias": [
-      "Park"
+      "Plaza"
     ],
-    "direccion": "Av. Julio Herrera y Reissig (esq. Gonzalo Ramírez y Sarmiento), 11300 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Dulce Amor",
-    "categorias": [
-      "Café",
-      "Deli"
-    ],
-    "direccion": "Francisco Joaquín Muñoz 3150 (Lorenzo Justiniano Pérez), Montevideo Montevideo"
-  },
-  {
-    "nombre": "Gran Parque Central",
-    "categorias": [
-      "Soccer Stadium"
-    ],
-    "direccion": "Calle Carlos Anaya 2900, 11600 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Pellegrin Boutique Gourmet",
-    "categorias": [
-      "Deli"
-    ],
-    "direccion": "Gregorio Suarez 2734 (Coronal Mora), Montevideo Montevideo"
-  },
-  {
-    "nombre": "Club Nacional de Football",
-    "categorias": [
-      "Sports and Recreation",
-      "Basketball Court"
-    ],
-    "direccion": "Av. 8 de Octubre 2847, 11600 Montevideo Montevideo"
+    "direccion": "Av. 18 de Julio (esq. Plaza Independencia), 11100 Montevideo Montevideo"
   },
   {
     "nombre": "Colegio Seminario",
@@ -94,33 +64,42 @@
     "direccion": "Soriano 1472 (e/ Barrios Amorín y Martínez Trueba), 11200 Montevideo Montevideo"
   },
   {
-    "nombre": "Doña Inés",
+    "nombre": "Teatro Solís",
     "categorias": [
-      "Café"
+      "Opera House",
+      "Theater",
+      "Concert Hall"
     ],
-    "direccion": "Miguel Barreiro 3293 (Alejandro Chucarro), Montevideo DF"
+    "direccion": "Buenos Aires s/nº (e/ Liniers y Bartolomé Mitre), 11000 Montevideo Montevideo"
   },
   {
-    "nombre": "Rambla Pocitos",
+    "nombre": "La Molienda",
+    "categorias": [
+      "Vegan and Vegetarian Restaurant"
+    ],
+    "direccion": ""
+  },
+  {
+    "nombre": "La Ibérica",
+    "categorias": [
+      "Furniture and Home Store"
+    ],
+    "direccion": "Rincon 711 (Juncal), 11000 Montevideo Montevideo"
+  },
+  {
+    "nombre": "Rambla Gran Bretaña",
     "categorias": [
       "Scenic Lookout"
     ],
-    "direccion": "Montevideo Montevideo"
+    "direccion": "Rambla Gran Bretaña (e/ Misiones y Convención), Montevideo Montevideo"
   },
   {
-    "nombre": "Gallaghers Irish Pub",
+    "nombre": "Puerta de la Ciudadela",
     "categorias": [
-      "Pub"
+      "Monument",
+      "Historic and Protected Site"
     ],
-    "direccion": "Pagola 3233 (26 de Marzo), 11300 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Candy Bar Palermo",
-    "categorias": [
-      "Cocktail Bar",
-      "Gastropub"
-    ],
-    "direccion": "Durazno 1402 (Santiago De Chile), 11200 Palermo Montevideo"
+    "direccion": "Juncal (Sarandí), Montevideo Montevideo"
   },
   {
     "nombre": "La Cocina de Pedro",
@@ -139,28 +118,44 @@
     "direccion": "San Salvador 1471 (Martínez Trueba), 11200 Montevideo Montevideo"
   },
   {
-    "nombre": "Francis",
+    "nombre": "Centro Cultural de España",
     "categorias": [
-      "Mediterranean Restaurant",
-      "Seafood Restaurant"
+      "Art Gallery",
+      "Library"
     ],
-    "direccion": "Luis de la Torre 502 (Jose Maria Montero), 11300 Montevideo Montevideo"
+    "direccion": "Rincon 629 (Bartolomé Mitre), 11000 Montevideo Montevideo"
   },
   {
-    "nombre": "La Pulpería",
+    "nombre": "Mirador Intendencia de Montevideo",
     "categorias": [
-      "BBQ Joint"
+      "Scenic Lookout"
     ],
-    "direccion": "Lagunillas 448 (Joaquín Núñez), Montevideo Montevideo"
+    "direccion": "18 de Julio (Ejido), 11200 Montevideo Montevideo"
   },
   {
-    "nombre": "Parque de Villa Biarritz",
+    "nombre": "Mandarino",
     "categorias": [
-      "Park",
-      "Dog Park",
-      "Playground"
+      "Deli"
     ],
-    "direccion": "Vazquez Ledesma (Pedro Berro), 11300 Montevideo Montevideo"
+    "direccion": "Maldonado 1606 (Lorenzo Carnelli), Montevideo Montevideo"
+  },
+  {
+    "nombre": "Confitería 25 De Mayo",
+    "categorias": [
+      "Dessert Shop",
+      "Bakery",
+      "Sandwich Spot"
+    ],
+    "direccion": "25 de Mayo 655 (Bartolome Mitre), 11200 Montevideo Montevideo"
+  },
+  {
+    "nombre": "Tropical Smoothies",
+    "categorias": [
+      "Juice Bar",
+      "Café",
+      "Sandwich Spot"
+    ],
+    "direccion": "Buenos Aires 614 (Juan Carlos Gómez), 11000 Montevideo Montevideo"
   },
   {
     "nombre": "Palacio Legislativo",
@@ -172,6 +167,81 @@
     "direccion": "Av. de las Leyes s/n (esq. Av. Libertador), Montevideo Montevideo"
   },
   {
+    "nombre": "Café Gourmand",
+    "categorias": [
+      "French Restaurant",
+      "Café",
+      "Coffee Roaster"
+    ],
+    "direccion": "Constituyente, 1869, 11200 Montevideo Montevideo"
+  },
+  {
+    "nombre": "Escarmuza Librería y Café",
+    "categorias": [
+      "Bookstore",
+      "Café",
+      "Coffee Shop"
+    ],
+    "direccion": "Pablo de María 1185 (Canelones), Montevideo Montevideo"
+  },
+  {
+    "nombre": "Su Bar",
+    "categorias": [
+      "Diner",
+      "South American Restaurant"
+    ],
+    "direccion": "Jackson 1151 (Maldonado), 11200 Montevideo Montevideo"
+  },
+  {
+    "nombre": "El Mingus",
+    "categorias": [
+      "Bar",
+      "Restaurant"
+    ],
+    "direccion": "San Salvador 1952 (Jackson), 11200 Montevideo Montevideo"
+  },
+  {
+    "nombre": "Mercado Ferrando",
+    "categorias": [
+      "Food Court",
+      "Market"
+    ],
+    "direccion": "Chana 2120 (Joaquín de Salterain), 11200 Montevideo Montevideo"
+  },
+  {
+    "nombre": "ThePutaMadre Bar",
+    "categorias": [
+      "Bar",
+      "Brewery",
+      "Gastropub"
+    ],
+    "direccion": "Canelones (Jackson), Montevideo Montevideo"
+  },
+  {
+    "nombre": "Hey chopp",
+    "categorias": [
+      "Bar",
+      "Brewery"
+    ],
+    "direccion": "Paullier (Rivera), Montevideo Montevideo"
+  },
+  {
+    "nombre": "Rambla Parque Rodó",
+    "categorias": [
+      "Waterfront",
+      "Other Great Outdoors",
+      "Scenic Lookout"
+    ],
+    "direccion": "Montevideo Montevideo"
+  },
+  {
+    "nombre": "Pancho Va!",
+    "categorias": [
+      "Hot Dog Joint"
+    ],
+    "direccion": "Br España 2140 Bis, Montevideo Montevideo"
+  },
+  {
     "nombre": "Mercado Agrícola de Montevideo",
     "categorias": [
       "Market",
@@ -181,207 +251,144 @@
     "direccion": "José L. Terra 2220 (e/ Martín García y Amézaga), 11800 Montevideo Montevideo"
   },
   {
-    "nombre": "Rambla República del Perú",
+    "nombre": "El Cuadrado",
     "categorias": [
-      "Waterfront"
+      "Skate Park"
     ],
-    "direccion": "Rambla República del Perú (Buxareo), 11300 Montevideo Montevideo"
+    "direccion": "Rambla República Argentina (Jackson), 11200 Montevideo Montevideo"
   },
   {
-    "nombre": "La Cibeles",
+    "nombre": "Obrador",
     "categorias": [
-      "Empanada Restaurant",
-      "Latin American Restaurant"
+      "Bakery",
+      "Coffee Shop"
     ],
-    "direccion": "San Jose (Carlos Quijano), Montevideo Montevideo"
+    "direccion": "Pablo de Maria 899 (Dr Lauro Muller), 11300 Montevideo Montevideo"
   },
   {
-    "nombre": "Club Biguá de Villa Biarritz",
+    "nombre": "Parque Rodó",
     "categorias": [
-      "Sports Club"
-    ],
-    "direccion": "Vázquez Ledesma 2968 (Martin Luther King), 11300 Montevideo Montevideo"
-  },
-  {
-    "nombre": "RUDY Burgers",
-    "categorias": [
-      "Burger Joint",
-      "American Restaurant"
-    ],
-    "direccion": "26 de marzo 3471 (Luis Alberto de Herrera), Montevideo Montevideo"
-  },
-  {
-    "nombre": "Plaza Trouville",
-    "categorias": [
-      "Plaza",
       "Park"
     ],
-    "direccion": "Rambla República del Perú (21 de Setiembre), 11300 Montevideo Montevideo"
+    "direccion": "Av. Julio Herrera y Reissig (esq. Gonzalo Ramírez y Sarmiento), 11300 Montevideo Montevideo"
   },
   {
-    "nombre": "Letrero Montevideo",
-    "categorias": [
-      "Monument",
-      "Outdoor Sculpture"
-    ],
-    "direccion": "Montevideo Montevideo"
-  },
-  {
-    "nombre": "Ashot Shawarma",
-    "categorias": [
-      "Kebab Restaurant",
-      "Falafel Restaurant"
-    ],
-    "direccion": "Zelmar Michelini 1295, 11100 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Rambla Punta Carretas",
-    "categorias": [
-      "Waterfront",
-      "Other Great Outdoors",
-      "Scenic Lookout"
-    ],
-    "direccion": "Rambla Mahatma Gandhi, 11300 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Garcia Parrilla",
-    "categorias": [
-      "BBQ Joint",
-      "Restaurant"
-    ],
-    "direccion": "Pasaje Sheraton/Aloft (Guipuzcoa), 11300 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Rambla Mahatma Gandhi",
-    "categorias": [
-      "Waterfront"
-    ],
-    "direccion": "Rambla Mahatma Gandhi, 11300 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Rambla Armenia",
-    "categorias": [
-      "Scenic Lookout"
-    ],
-    "direccion": "Montevideo Montevideo"
-  },
-  {
-    "nombre": "The Lab Coffee Roasters",
+    "nombre": "Café del Mercado",
     "categorias": [
       "Coffee Shop"
     ],
-    "direccion": "Sarandí 285, 11000 Montevideo Montevideo"
+    "direccion": "Jose L Terra 2220 Local 41 (Martín Garcia), Montevideo Montevideo"
   },
   {
-    "nombre": "La Perdiz",
+    "nombre": "ZonaTecno",
     "categorias": [
-      "Steakhouse"
+      "Electronics Store",
+      "Mobile Phone Store"
     ],
-    "direccion": "Guipuzcoa 350 (Baliñas), 11300 Montevideo Montevideo"
+    "direccion": "18 de Julio 2201 (Dr. Alejandro Beisso), 11200 Montevideo Montevideo"
   },
   {
-    "nombre": "Auditorio Nacional del Sodre Dra. Adela Reta",
+    "nombre": "Inmigrantes",
     "categorias": [
-      "Concert Hall",
-      "Performing Arts Venue",
-      "Theater"
+      "Bar"
     ],
-    "direccion": "Andes (Mercedes), 11100 Montevideo Montevideo"
+    "direccion": "11200 Montevideo Montevideo"
   },
   {
-    "nombre": "Plaza Independencia",
+    "nombre": "Club De Pesca Noa Noa",
     "categorias": [
-      "Plaza"
+      "Beach"
     ],
-    "direccion": "Av. 18 de Julio (esq. Plaza Independencia), 11100 Montevideo Montevideo"
+    "direccion": "Montevideo Montevideo"
   },
   {
-    "nombre": "Teatro Solís",
+    "nombre": "Museo Nacional de Artes Visuales del Parque Rodó",
     "categorias": [
-      "Opera House",
-      "Theater",
-      "Concert Hall"
+      "Museum"
     ],
-    "direccion": "Buenos Aires s/nº (e/ Liniers y Bartolomé Mitre), 11000 Montevideo Montevideo"
+    "direccion": "Julio Herrera y Reissig s/n (Tomás Giribaldi), 11300 Montevideo Montevideo"
   },
   {
-    "nombre": "La Ibérica",
+    "nombre": "Obelisco a los Constituyentes de 1830",
     "categorias": [
-      "Furniture and Home Store"
+      "Monument",
+      "Historic and Protected Site"
     ],
-    "direccion": "Rincon 711 (Juncal), 11000 Montevideo Montevideo"
+    "direccion": "Bv. Artigas (Av. 18 de Julio), Montevideo Montevideo"
   },
   {
-    "nombre": "Rambla Gran Bretaña",
+    "nombre": "SushiTrue",
     "categorias": [
-      "Scenic Lookout"
+      "Sushi Restaurant",
+      "Japanese Restaurant"
     ],
-    "direccion": "Rambla Gran Bretaña (e/ Misiones y Convención), Montevideo Montevideo"
+    "direccion": "Obligado 1076 (Rufino Bauzá), Montevideo Montevideo"
   },
   {
-    "nombre": "Plaza Matriz (Constitución)",
+    "nombre": "Sumi Sushi Delivery",
     "categorias": [
-      "Plaza"
+      "Sushi Restaurant",
+      "Japanese Restaurant"
     ],
-    "direccion": "Sarandí (Juan Carlos Gómez), 11000 Montevideo Montevideo"
+    "direccion": "Patria 699 (Figueira), Montevideo Montevideo"
   },
   {
-    "nombre": "Centro Cultural de España",
+    "nombre": "Canteras del Parque Rodó",
     "categorias": [
-      "Art Gallery",
-      "Library"
+      "Park",
+      "Scenic Lookout",
+      "Hiking Trail"
     ],
-    "direccion": "Rincon 629 (Bartolomé Mitre), 11000 Montevideo Montevideo"
+    "direccion": "Rambla Pte. Wilson (y Av. Dr. Juan A. Cachón), Montevideo Montevideo"
   },
   {
-    "nombre": "Estrecho",
+    "nombre": "Pellegrin Boutique Gourmet",
     "categorias": [
-      "South American Restaurant",
-      "French Restaurant"
+      "Deli"
     ],
-    "direccion": "Sarandí 460 (e/ Misiones y Treinta y Tres), 11000 Montevideo Montevideo"
+    "direccion": "Gregorio Suarez 2734 (Coronal Mora), Montevideo Montevideo"
   },
   {
-    "nombre": "Sin Pretensiones",
+    "nombre": "Congelados Glacial",
     "categorias": [
-      "Comfort Food Restaurant"
+      "Grocery Store"
     ],
-    "direccion": "Sarandi 366 (Alzaibar), 11000 Montevideo Montevideo"
+    "direccion": "Duvimioso Terra 2050 (Hocquart), 11800 Montevideo Montevideo"
   },
   {
-    "nombre": "Café Brasilero",
+    "nombre": "La Pulpería",
+    "categorias": [
+      "BBQ Joint"
+    ],
+    "direccion": "Lagunillas 448 (Joaquín Núñez), Montevideo Montevideo"
+  },
+  {
+    "nombre": "Francis",
+    "categorias": [
+      "Mediterranean Restaurant",
+      "Seafood Restaurant"
+    ],
+    "direccion": "Luis de la Torre 502 (Jose Maria Montero), 11300 Montevideo Montevideo"
+  },
+  {
+    "nombre": "Café Doré",
+    "categorias": [
+      "Coffee Shop"
+    ],
+    "direccion": "Avenida General Rivera 2628 (Brito del Pino), Montevideo Montevideo"
+  },
+  {
+    "nombre": "Adolfo Café",
     "categorias": [
       "Café"
     ],
-    "direccion": "Ituzaingó 1447 (e/ 25 de Mayo y Rincón), 11000 Montevideo Montevideo"
+    "direccion": "Williman 597, 11300 Montevideo Montevideo"
   },
   {
-    "nombre": "Jacinto",
+    "nombre": "Tandory",
     "categorias": [
       "Restaurant"
     ],
-    "direccion": "Sarandí 349 (Alzaibar), 11000 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Primuseum",
-    "categorias": [
-      "BBQ Joint",
-      "Music Venue"
-    ],
-    "direccion": "Perez Castellano 1389 (Washington), 11000 Montevideo Montevideo"
-  },
-  {
-    "nombre": "Plaza Zabala",
-    "categorias": [
-      "Plaza"
-    ],
-    "direccion": "Circunvalación Durango, Montevideo Montevideo"
-  },
-  {
-    "nombre": "El Bajo - Ciudad Vieja",
-    "categorias": [
-      "Public Art"
-    ],
-    "direccion": "Juan Carlos Gomez (Piedras), 11100 Ciudad Vieja Montevideo"
+    "direccion": "Ramon Masini 1130 (Libertad), 11300 Montevideo Montevideo"
   }
 ]
