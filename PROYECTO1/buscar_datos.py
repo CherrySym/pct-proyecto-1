@@ -13,6 +13,10 @@ APIclima = 'https://open-meteo.com'
 APIcoords = 'https://nominatim.openstreetmap.org/search'
 APIrandom = 'x'
 
+"""
+CONSEGUIR FERIADOS (NAGER HOLIDAYS)
+"""
+
 def datos_feriados(url=APIferiados, archivo_salida=None):
     if archivo_salida is None:
         archivo_salida = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'datos', 'raw', 'feriados_2026.txt')
@@ -21,15 +25,19 @@ def datos_feriados(url=APIferiados, archivo_salida=None):
     if directorio:
         os.makedirs(directorio, exist_ok=True)
 
-    if os.path.exists(archivo_salida) and os.path.getsize(archivo_salida) > 0:
+    if os.path.exists(archivo_salida) and os.path.getsize(archivo_salida) > 0: #Si el archivo SI existe, NO hacer nada
         return
-    else:
+    else: #Si el archivo NO existe escribir los feriados.
         r = requests.get(url)
         r.raise_for_status()
         dias = [feriado['date'] for feriado in r.json()]
         with open(archivo_salida, 'w', encoding='utf-8') as feriados:
             for dia in dias:
                 feriados.write(dia + '\n')
+
+"""
+ESTABLECER DESTINOS
+"""
 
 def datos_destinos(archivo_salida=None):
     if archivo_salida is None:
@@ -63,6 +71,10 @@ def datos_destinos(archivo_salida=None):
     with open(archivo_salida, 'w', encoding='utf-8') as f:
         for destino in destinos:
             f.write(destino + '\n')
+
+"""
+CONSEGUIR COORDENADAS (NOMINATIM)
+"""
 
 def datos_coords(archivo_salida=None, archivo_entrada=None, actualizado=False):
     _dir = os.path.dirname(os.path.abspath(__file__))
@@ -107,6 +119,10 @@ def datos_coords(archivo_salida=None, archivo_entrada=None, actualizado=False):
             time.sleep(1)
 
     print("Coordenadas actualizadas correctamente")
+
+"""
+CONSEGUIR CLIMA (OPEN-METEO)
+"""
 
 def datos_clima_asincrono(archivo_coords=None, archivo_salida=None, inicio='2016-01-01', fin='2025-12-31'):
     _dir = os.path.dirname(os.path.abspath(__file__))
