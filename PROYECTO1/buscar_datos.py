@@ -124,7 +124,7 @@ def datos_coords(archivo_salida=None, archivo_entrada=None, actualizado=False):
 CONSEGUIR CLIMA (OPEN-METEO)
 """
 
-def datos_clima_asincrono(archivo_coords=None, archivo_salida=None, inicio='2016-01-01', fin='2025-12-31'):
+def datos_clima(archivo_coords=None, archivo_salida=None, inicio='2016-01-01', fin='2025-12-31'):
     _dir = os.path.dirname(os.path.abspath(__file__))
     if archivo_coords is None:
         archivo_coords = os.path.join(_dir, 'datos', 'raw', 'coords_2026.txt')
@@ -191,8 +191,7 @@ def datos_clima_asincrono(archivo_coords=None, archivo_salida=None, inicio='2016
     with open(archivo_salida, 'w', encoding='utf-8') as f:
         json.dump(resultados, f, ensure_ascii=False, indent=2)
 
-def datos_clima():
-    datos_clima_asincrono()
+
 
 def lugares_de_interes():
     # en el archivo reclectar_foursquare.py
