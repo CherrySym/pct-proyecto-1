@@ -1,5 +1,8 @@
 #PROYECTO 1 - MATIAS FADEL, ERIK DAMIRES, GABRIEL MEDEROS, NICOLAS GOBBO
 
+from dotenv import load_dotenv
+load_dotenv()
+
 import time
 import requests
 import os
@@ -11,7 +14,15 @@ import aiohttp
 APIferiados = 'https://nagerholidays.com//api/v4/Holidays/uy/2026'
 APIclima = 'https://open-meteo.com'
 APIcoords = 'https://nominatim.openstreetmap.org/search'
-APIrandom = 'x'
+APIfoursquare = 'https://places-api.foursquare.com/places/search'
+
+FOURSQUARE_KEY = os.environ.get("FOURSQUARE_KEY")
+
+HEADERS_FOURSQUARE = {
+    "Accept": "application/json",
+    "Authorization": f"Bearer {FOURSQUARE_KEY}",
+    "X-Places-Api-Version": "2025-06-17"
+}
 
 """
 CONSEGUIR FERIADOS (NAGER HOLIDAYS)
@@ -236,12 +247,121 @@ def datos_clima(archivo_coords=None, archivo_salida=None, inicio='2016-01-01', f
 
 
 
-def lugares_de_interes():
-    # en el archivo reclectar_foursquare.py
-    return
+"""
+CONSEGUIR LUGARES DE INTERES (FOURSQUARE)
+"""
+
+def buscar_lugares(lat, lon, categoria=None, radius=20000, limit=50, reintentos=3):
+    params = {
+        "ll": f"{lat},{lon}",
+        "radius": radius,
+        "limit": limit
+    }
+
+    if categoria:
+        params["categories"] = categoria
+
+    for intento in range(reintentos):
+        try:
+            r = requests.get(APIfoursquare, headers=HEADERS_FOURSQUARE, params=params, timeout=15)
+        except (requests.exceptions.ChunkedEncodingError, requests.exceptions.ConnectionError):
+            espera = 3 * (intento + 1)
+            print(f"Error de conexión. Reintentando en {espera}s...")
+            time.sleep(espera)
+            continue
+
+        if r.status_code == 429:
+            espera = 5 * (intento + 1)
+            print(f"Rate limit alcanzado. Esperando {espera}s...")
+            time.sleep(espera)
+            continue
+
+        r.raise_for_status()
+        return r.json()["results"]
+
+    raise Exception("No se pudo completar la request tras varios reintentos")
+
+
+def filtrar_lugares(lugares):
+    filtrados = []
+
+    for lugar in lugares:
+        categorias = [c.get("name", "").lower() for c in lugar.get("categories", [])]
+
+        es_restaurante = any("restaurant" in categoria for categoria in categorias)
+        es_playa = any("beach" in categoria for categoria in categorias)
+
+        if es_restaurante or es_playa:
+            filtrados.append(lugar)
+
+    return filtrados
+
+
+def limpiar_lugares(lugares):
+    limpio = []
+
+    for l in lugares:
+        limpio.append({
+            "nombre": l.get("name", "Sin nombre"),
+            "categorias": [c.get("name") for c in l.get("categories", [])],
+            "direccion": l.get("location", {}).get("formatted_address", "Sin dirección"),
+        })
+
+    return limpio
+
+
+def buscar_lugares_cacheado(lat, lon, nombre_destino, carpeta_cache=None):
+    if carpeta_cache is None:
+        carpeta_cache = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'foursquare')
+
+    os.makedirs(carpeta_cache, exist_ok=True)
+
+    ruta = os.path.join(carpeta_cache, f"{nombre_destino}.json")
+
+    if os.path.exists(ruta):
+        with open(ruta, 'r', encoding='utf-8') as f:
+            return json.load(f)
+
+    resultados_crudos = buscar_lugares(lat, lon)
+    resultados_filtrados = filtrar_lugares(resultados_crudos)
+    resultados_limpios = limpiar_lugares(resultados_filtrados)
+
+    with open(ruta, 'w', encoding='utf-8') as f:
+        json.dump(resultados_limpios, f, ensure_ascii=False, indent=2)
+
+    return resultados_limpios
+
+
+def datos_lugares(archivo_coords=None):
+    _dir = os.path.dirname(os.path.abspath(__file__))
+    if archivo_coords is None:
+        archivo_coords = os.path.join(_dir, 'datos', 'raw', 'coords_2026.txt')
+
+    if not os.path.exists(archivo_coords):
+        raise FileNotFoundError(f"No se encontró el archivo: {archivo_coords}")
+
+    with open(archivo_coords, 'r', encoding='utf-8') as archivo:
+        for linea in archivo:
+            linea = linea.strip()
+
+            if not linea:
+                continue
+
+            nombre_destino, coordenadas = linea.split(";")
+            lat, lon = coordenadas.split(",")
+            lat = float(lat)
+            lon = float(lon)
+
+            nombre_archivo = nombre_destino.split(",")[0].strip()
+
+            lugares = buscar_lugares_cacheado(lat, lon, nombre_archivo)
+
+            print(f"{len(lugares)} lugares guardados para {nombre_archivo}")
+
 
 if __name__ == "__main__":
     datos_feriados()
     datos_destinos()
     datos_coords()
     datos_clima()
+    datos_lugares()
