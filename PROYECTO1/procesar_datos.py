@@ -1,7 +1,5 @@
 #PROYECTO 1 - MATIAS FADEL, ERIK DAMIRES, GABRIEL MEDEROS, NICOLAS GOBBO
 
-import requests
-import time
 import os
 import datetime
 import json
