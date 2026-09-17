@@ -80,7 +80,7 @@ def normalizar(valores, invertir=False):
     return [100 - e for e in escalados] if invertir else escalados
 
 
-def mejor_finde_para_destino(destino, w_temp=0.5, w_lluvia=0.5, archivo=ARCHIVO_CLIMA_FINDES):
+def mejor_finde_para_destino(destino, peso_temp=0.5, peso_lluvia=0.5, archivo=ARCHIVO_CLIMA_FINDES):
     """
     para un destino fijo, ordena sus findes largos disponibles de mejor a peor
     según temperatura (más alta = mejor) y lluvia (menos lluvia = mejor),
@@ -101,13 +101,13 @@ def mejor_finde_para_destino(destino, w_temp=0.5, w_lluvia=0.5, archivo=ARCHIVO_
     for candidato, temp_score, lluvia_score in zip(candidatos, temp_scores, lluvia_scores):
         candidato['score_temp'] = round(temp_score, 1)
         candidato['score_lluvia'] = round(lluvia_score, 1)
-        candidato['score'] = round(w_temp * temp_score + w_lluvia * lluvia_score, 1)
+        candidato['score'] = round(peso_temp * temp_score + peso_lluvia * lluvia_score, 1)
 
     return sorted(candidatos, key=lambda c: c['score'], reverse=True)
 
 
-def decidir_mejor_destino(destino, w_temp=0.5, w_lluvia=0.5):
-    ranking = mejor_finde_para_destino(destino, w_temp, w_lluvia)
+def decidir_mejor_destino(destino, peso_temp=0.5, peso_lluvia=0.5):
+    ranking = mejor_finde_para_destino(destino, peso_temp, peso_lluvia)
 
     print(f"\nRanking de findes largos para ir a {destino}:")
     for puesto, c in enumerate(ranking, start=1):
@@ -121,7 +121,7 @@ def decidir_mejor_destino(destino, w_temp=0.5, w_lluvia=0.5):
     return ranking[0] if ranking else None
 
 
-def mejor_destino_para_finde(indice_finde, w_temp=1/3, w_lluvia=1/3, w_lugares=1/3, archivo=ARCHIVO_CLIMA_FINDES):
+def mejor_destino_para_finde(indice_finde, peso_temp=1/3, peso_lluvia=1/3, peso_lugares=1/3, archivo=ARCHIVO_CLIMA_FINDES):
     """
     para un finde largo fijo, ordena los destinos disponibles de mejor a peor
     según temperatura, lluvia y cantidad de lugares de interés, normalizadas
@@ -153,14 +153,14 @@ def mejor_destino_para_finde(indice_finde, w_temp=1/3, w_lluvia=1/3, w_lugares=1
         candidato['score_lluvia'] = round(lluvia_score, 1)
         candidato['score_lugares'] = round(lugares_score, 1)
         candidato['score'] = round(
-            w_temp * temp_score + w_lluvia * lluvia_score + w_lugares * lugares_score, 1
+            peso_temp * temp_score + peso_lluvia * lluvia_score + peso_lugares * lugares_score, 1
         )
 
     return sorted(candidatos, key=lambda c: c['score'], reverse=True)
 
 
-def decidir_mejor_destino_para_finde(indice_finde, w_temp=1/3, w_lluvia=1/3, w_lugares=1/3):
-    ranking = mejor_destino_para_finde(indice_finde, w_temp, w_lluvia, w_lugares)
+def decidir_mejor_destino_para_finde(indice_finde, peso_temp=1/3, peso_lluvia=1/3, peso_lugares=1/3):
+    ranking = mejor_destino_para_finde(indice_finde, peso_temp, peso_lluvia, peso_lugares)
 
     if not ranking:
         return None
@@ -178,7 +178,7 @@ def decidir_mejor_destino_para_finde(indice_finde, w_temp=1/3, w_lluvia=1/3, w_l
     return ranking[0]
 
 
-def rankear_findes(w_temp=1/3, w_lluvia=1/3, w_lugares=1/3, archivo=ARCHIVO_CLIMA_FINDES):
+def rankear_findes(peso_temp=1/3, peso_lluvia=1/3, peso_lugares=1/3, archivo=ARCHIVO_CLIMA_FINDES):
     """
     para cada finde largo disponible calcula su mejor destino posible
     (mismos criterios que mejor_destino_para_finde) y arma un ranking de
@@ -188,7 +188,7 @@ def rankear_findes(w_temp=1/3, w_lluvia=1/3, w_lugares=1/3, archivo=ARCHIVO_CLIM
 
     resultados = []
     for indice in range(len(findes_largos)):
-        ranking_destinos = mejor_destino_para_finde(indice, w_temp, w_lluvia, w_lugares, archivo)
+        ranking_destinos = mejor_destino_para_finde(indice, peso_temp, peso_lluvia, peso_lugares, archivo)
         if not ranking_destinos:
             continue
 
@@ -206,8 +206,8 @@ def rankear_findes(w_temp=1/3, w_lluvia=1/3, w_lugares=1/3, archivo=ARCHIVO_CLIM
     return sorted(resultados, key=lambda r: r['score'], reverse=True)
 
 
-def decidir_mejor_finde(w_temp=1/3, w_lluvia=1/3, w_lugares=1/3):
-    ranking = rankear_findes(w_temp, w_lluvia, w_lugares)
+def decidir_mejor_finde(peso_temp=1/3, peso_lluvia=1/3, peso_lugares=1/3):
+    ranking = rankear_findes(peso_temp, peso_lluvia, peso_lugares)
 
     if not ranking:
         print("No hay datos suficientes para rankear los fines de semana largos.")
