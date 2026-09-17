@@ -311,7 +311,7 @@ def limpiar_lugares(lugares):
 
 def buscar_lugares_cacheado(lat, lon, nombre_destino, carpeta_cache=None):
     if carpeta_cache is None:
-        carpeta_cache = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'foursquare')
+        carpeta_cache = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'datos', 'raw', 'foursquare')
 
     os.makedirs(carpeta_cache, exist_ok=True)
 

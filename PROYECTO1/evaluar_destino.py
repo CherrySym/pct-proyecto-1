@@ -5,7 +5,7 @@ import json
 
 _dir = os.path.dirname(os.path.abspath(__file__))
 ARCHIVO_CLIMA_FINDES = os.path.join(_dir, 'datos', 'procesados', 'clima_findes_largos.json')
-CARPETA_FOURSQUARE = os.path.join(_dir, 'foursquare')
+CARPETA_FOURSQUARE = os.path.join(_dir, 'datos', 'raw', 'foursquare')
 
 
 def cargar_clima_findes(archivo=ARCHIVO_CLIMA_FINDES):
