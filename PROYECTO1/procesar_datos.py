@@ -31,7 +31,11 @@ def filtrar_datos_clima(archivo_findes=None, archivo_clima=None, archivo_salida=
     if not os.path.exists(archivo_clima) or os.path.getsize(archivo_clima) == 0:
         return
     if os.path.exists(archivo_salida) and os.path.getsize(archivo_salida) > 0:
-        return
+        # si el archivo de salida es más nuevo que sus fuentes, la caché sigue siendo válida
+        entradas_mas_nuevas = os.path.getmtime(archivo_findes) > os.path.getmtime(archivo_salida) \
+            or os.path.getmtime(archivo_clima) > os.path.getmtime(archivo_salida)
+        if not entradas_mas_nuevas:
+            return
 
     with open(archivo_findes, 'r', encoding='utf-8') as f:
         findes_largos = [
@@ -56,7 +60,7 @@ def filtrar_datos_clima(archivo_findes=None, archivo_clima=None, archivo_salida=
         indice_por_lugar[lugar] = indice_dia
 
     def promedio(registros, clave):
-        valores = [registro[clave] for registro in registros]
+        valores = [registro[clave] for registro in registros if registro[clave] is not None]
         return round(sum(valores) / len(valores), 1) if valores else None
 
     # para cada finde largo armamos, por lugar y por día del finde, la lista de registros
