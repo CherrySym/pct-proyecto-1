@@ -31,14 +31,10 @@ Tres fórmulas razonables, tres ganadores de regiones del país completamente di
 
 **El mejor fin de semana largo del año es:**
 
-2026-10-10 a 2026-10-12:
+**`2026-10-10 a 2026-10-12:`**
 
-Salto, Uruguay  
-temp prom: 23.8°C
-lluvia prom: 2.6mm
-lugares: 10
-score: 78.6
+**`Salto, Uruguay | temp prom: 23.8°C | lluvia prom: 2.6mm |lugares: 10 | score: 78.6`**
 
-La sumatoria del promedio y puntaje asociado a estos valores nos permiten llegar a la conclusión final.
+
 
 
