@@ -1,22 +1,5 @@
 #PROYECTO 1 - MATIAS FADEL, ERIK DAMIRES, GABRIEL MEDEROS, NICOLAS GOBBO
 
-"""
-
-SISTEMA DE PUNTACION
-Sistema de puntaje sobre 100
-Generar un ranking
-
-cuando:
-largo del finde
-clima en el finde
-
-donde:
-- Clima (open-meteo): x puntos
-- POI (foursquare): x puntos
-    (cantidad)
-
-"""
-
 import os
 import json
 
