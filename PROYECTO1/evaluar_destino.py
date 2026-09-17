@@ -7,17 +7,21 @@ _dir = os.path.dirname(os.path.abspath(__file__))
 ARCHIVO_CLIMA_FINDES = os.path.join(_dir, 'datos', 'procesados', 'clima_findes_largos.json')
 CARPETA_FOURSQUARE = os.path.join(_dir, 'datos', 'raw', 'foursquare')
 
+'''
+Cargar los climas
+'''
+
 
 def cargar_clima_findes(archivo=ARCHIVO_CLIMA_FINDES):
     with open(archivo, 'r', encoding='utf-8') as f:
         return json.load(f)
 
 
+'''
+Contar los POI
+'''
+
 def contar_lugares_interes(destino, carpeta=CARPETA_FOURSQUARE):
-    """
-    cuenta cuántos lugares de interés (foursquare) tiene un destino,
-    buscando el archivo cacheado sin importar mayúsculas/minúsculas
-    """
     nombre_corto = destino.split(",")[0].strip().lower()
 
     for nombre_archivo in os.listdir(carpeta):
@@ -28,11 +32,11 @@ def contar_lugares_interes(destino, carpeta=CARPETA_FOURSQUARE):
     return None
 
 
+'''
+Calcular el promedio historico del clima para los findes
+'''
+
 def clima_finde_para_destino(finde, destino):
-    """
-    promedia, entre los días que componen un finde largo, el promedio histórico
-    (10 años) de temperatura máxima y lluvia de un destino puntual
-    """
     dias = finde['clima'].get(destino)
     if not dias:
         return None
@@ -50,11 +54,11 @@ def clima_finde_para_destino(finde, destino):
     }
 
 
+'''
+Establece un sistema único de puntuación 0-100
+'''
+
 def normalizar(valores, invertir=False):
-    """
-    escala una lista de valores a puntajes 0-100 (min-max).
-    invertir=True cuando un valor más bajo debería dar más puntaje (ej. lluvia)
-    """
     minimo, maximo = min(valores), max(valores)
     if maximo == minimo:
         return [100.0 for _ in valores]
@@ -63,12 +67,11 @@ def normalizar(valores, invertir=False):
     return [100 - e for e in escalados] if invertir else escalados
 
 
+'''
+Establece el mejor finde para x destino
+'''
+
 def mejor_finde_para_destino(destino, peso_temp=0.5, peso_lluvia=0.5, archivo=ARCHIVO_CLIMA_FINDES):
-    """
-    para un destino fijo, ordena sus findes largos disponibles de mejor a peor
-    según temperatura (más alta = mejor) y lluvia (menos lluvia = mejor),
-    normalizadas 0-100 entre esos mismos findes
-    """
     findes_largos = cargar_clima_findes(archivo)
 
     candidatos = [clima_finde_para_destino(finde, destino) for finde in findes_largos]
@@ -89,6 +92,10 @@ def mejor_finde_para_destino(destino, peso_temp=0.5, peso_lluvia=0.5, archivo=AR
     return sorted(candidatos, key=lambda c: c['score'], reverse=True)
 
 
+'''
+Decide y muestra el mejor finde para x destino
+'''
+
 def decidir_mejor_destino(destino, peso_temp=0.5, peso_lluvia=0.5):
     ranking = mejor_finde_para_destino(destino, peso_temp, peso_lluvia)
 
@@ -104,12 +111,11 @@ def decidir_mejor_destino(destino, peso_temp=0.5, peso_lluvia=0.5):
     return ranking[0] if ranking else None
 
 
+'''
+Establece el mejor destino para x finde
+'''
+
 def mejor_destino_para_finde(indice_finde, peso_temp=1/3, peso_lluvia=1/3, peso_lugares=1/3, archivo=ARCHIVO_CLIMA_FINDES):
-    """
-    para un finde largo fijo, ordena los destinos disponibles de mejor a peor
-    según temperatura, lluvia y cantidad de lugares de interés, normalizadas
-    0-100 entre esos mismos destinos
-    """
     findes_largos = cargar_clima_findes(archivo)
     finde = findes_largos[indice_finde]
 
@@ -142,6 +148,10 @@ def mejor_destino_para_finde(indice_finde, peso_temp=1/3, peso_lluvia=1/3, peso_
     return sorted(candidatos, key=lambda c: c['score'], reverse=True)
 
 
+'''
+Decide y muestra el mejor destino para x finde
+'''
+
 def decidir_mejor_destino_para_finde(indice_finde, peso_temp=1/3, peso_lluvia=1/3, peso_lugares=1/3):
     ranking = mejor_destino_para_finde(indice_finde, peso_temp, peso_lluvia, peso_lugares)
 
@@ -161,12 +171,11 @@ def decidir_mejor_destino_para_finde(indice_finde, peso_temp=1/3, peso_lluvia=1/
     return ranking[0]
 
 
+'''
+Rankea todos los findes según su mejor destino
+'''
+
 def rankear_findes(peso_temp=1/3, peso_lluvia=1/3, peso_lugares=1/3, archivo=ARCHIVO_CLIMA_FINDES):
-    """
-    para cada finde largo disponible calcula su mejor destino posible
-    (mismos criterios que mejor_destino_para_finde) y arma un ranking de
-    fines de semana ordenado por el score de ese mejor destino
-    """
     findes_largos = cargar_clima_findes(archivo)
 
     resultados = []
@@ -188,6 +197,10 @@ def rankear_findes(peso_temp=1/3, peso_lluvia=1/3, peso_lugares=1/3, archivo=ARC
 
     return sorted(resultados, key=lambda r: r['score'], reverse=True)
 
+
+'''
+Decide y muestra el mejor finde de todos
+'''
 
 def decidir_mejor_finde(peso_temp=1/3, peso_lluvia=1/3, peso_lugares=1/3):
     ranking = rankear_findes(peso_temp, peso_lluvia, peso_lugares)
