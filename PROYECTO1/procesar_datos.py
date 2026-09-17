@@ -4,14 +4,12 @@ import os
 import datetime
 import json
 
+'''
+Procesar fin de semanas largos
+'''
+
 def filtrar_datos_clima(archivo_findes=None, archivo_clima=None, archivo_salida=None):
-    """
-    leer las fechas de los findes de 'datos/procesados/findelargos_2026.txt'
-    leer el json clima historico 'datos/raw/clima_historico.json'
-    buscar cómo estuvo el clima esos mismos días exactos (mismo mes y día) en los 10 años
-    extraer la temperatura máxima y la lluvia de esos días para cada lugar
-    guardar un nuevo archivo 'datos/procesados/clima_findes_largos.json'
-    """
+
     _dir = os.path.dirname(os.path.abspath(__file__))
     if archivo_findes is None:
         archivo_findes = os.path.join(_dir, 'datos', 'procesados', 'findelargos_2026.txt')
@@ -88,6 +86,9 @@ def filtrar_datos_clima(archivo_findes=None, archivo_clima=None, archivo_salida=
 
     print(f"Se procesó el clima histórico de {len(clima_findes_largos)} findes largos y se guardó en {archivo_salida}")
 
+'''
+Procesar fin de semanas largos
+'''
 
 def encontrar_finde_largo(archivo_entrada=None, archivo_salida=None):
     _dir = os.path.dirname(os.path.abspath(__file__))
